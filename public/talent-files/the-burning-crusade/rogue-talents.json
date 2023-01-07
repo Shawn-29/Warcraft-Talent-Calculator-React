@@ -1,0 +1,770 @@
+{
+    "id": 2,
+    "expId": 1,
+    "name": "rogue Talents",
+    "trees": [
+        {
+            "name": "Assassination",
+            "bgURL": "rogue-assassination-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Improved Poisons",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "abilities/ability_poisons",
+                    "maxRank": 5,
+                    "description": "Increases the chance to apply poisons to your target by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Lethality",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "abilities/ability_criticalstrike",
+                    "maxRank": 5,
+                    "description": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, Mutilate, Shiv, and Hemorrhage abilites by v0%.",
+                    "values": {
+                        "v0": 6
+                    },
+                    "dependencyName": "Malice"
+                },
+                {
+                    "name": "Malice",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "abilities/ability_racial_bloodrage",
+                    "maxRank": 5,
+                    "description": "Increases your critical strike chance by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Remorseless Attacks",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "abilities/ability_fiegndead",
+                    "maxRank": 2,
+                    "description": "After killing an opponent that yields experience or honor, gives you a v0% increased critical strike chance on your next Sinister Strike, Backstab, Mutilate, Hemorrhage, Ambush, or Ghostly Strike. Lasts 20 sec.",
+                    "values": {
+                        "v0": 20
+                    }
+                },
+                {
+                    "name": "Ruthlessness",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "abilities/ability_druid_disembowel",
+                    "maxRank": 3,
+                    "description": "Gives your finishing moves a v0% chance to add a combo point to your target.",
+                    "values": {
+                        "v0": 20
+                    }
+                },
+                {
+                    "name": "Murder",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "spells/spell_shadow_deathscream",
+                    "maxRank": 2,
+                    "description": "Increases all damage caused against Humanoid, Giant, Beast, and Dragonkin targets by v0%",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Improved Eviscerate",
+                    "x": 1,
+                    "y": 1,
+                    "bgURL": "abilities/ability_rogue_eviscerate",
+                    "maxRank": 3,
+                    "description": "Increases the damage done by your Eviscerate ability by v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Puncturing Wounds",
+                    "x": 4,
+                    "y": 2,
+                    "bgURL": "abilities/ability_backstab",
+                    "maxRank": 3,
+                    "description": "Increases the critical strike chance of your Backstab ability by v0%, and the critical strike chance of your Mutilate ability by v1%.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 5
+                    }
+                },
+                {
+                    "name": "Improved Expose Armor",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "abilities/ability_warrior_riposte",
+                    "maxRank": 2,
+                    "description": "Increases the armor reduced by your Expose Armor ability by an additional v0%.",
+                    "values": {
+                        "v0": 25
+                    }
+                },
+                {
+                    "name": "Improved Kidney Shot",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "abilities/ability_rogue_kidneyshot",
+                    "maxRank": 3,
+                    "description": "While affected by your Kidney Shot ability, target receives an additional v0% damage from all sources.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Cold Blood",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "spells/spell_ice_lament",
+                    "maxRank": 1,
+                    "description": "When activated, increases the critical strike chance of your next offensive ability by 100%."
+                },
+                {
+                    "name": "Relentless Strikes",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "abilities/ability_warrior_decisivestrike",
+                    "maxRank": 1,
+                    "description": "Your finishing moves have a 20% chance per combo point to restore 25 energy."
+                },
+                {
+                    "name": "Seal Fate",
+                    "x": 2,
+                    "y": 6,
+                    "bgURL": "spells/spell_shadow_chilltouch",
+                    "maxRank": 5,
+                    "description": "Your critical strikes from abilities that add combo points have a v0% chance to add an additional combo point.",
+                    "values": {
+                        "v0": 20
+                    },
+                    "dependencyName": "Cold Blood"
+                },
+                {
+                    "name": "Vigor",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_nature_earthbindtotem",
+                    "maxRank": 1,
+                    "description": "Increases your maximum Energy by 10."
+                },
+                {
+                    "name": "Vile Poisons",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "abilities/ability_rogue_feigndeath",
+                    "maxRank": 5,
+                    "description": "Increases the damage dealt by your poisons and Envenom ability by v0% and gives your poisons an additional v1% chance to resist dispel effects.",
+                    "values": {
+                        "v0": 4,
+                        "v1": 8
+                    }
+                },
+                {
+                    "name": "Fleet Footed",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "abilities/ability_rogue_fleetfooted",
+                    "maxRank": 2,
+                    "description": "Increases your chance to resist movement impairing effects by v0% and increases your movement speed by v1%. This does not stack with other movement speed increasing effects.",
+                    "values": {
+                        "v0": 5,
+                        "v1": [
+                            8,
+                            15
+                        ]
+                    }
+                },
+                {
+                    "name": "Quick Recovery",
+                    "x": 4,
+                    "y": 5,
+                    "bgURL": "abilities/ability_rogue_quickrecovery",
+                    "maxRank": 2,
+                    "description": "All healing effects on you are increased by v0%. In addition, your finishing moves cost v1% less Energy when they fail to hit.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 40
+                    }
+                },
+                {
+                    "name": "Master Poisoner",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "abilities/ability_creature_poison_06",
+                    "maxRank": 2,
+                    "description": "Reduces the chance your poisons will be resisted by v0% and increases your chance to resist Poison effects by an additional v1%.",
+                    "values": {
+                        "v0": 5,
+                        "v1": 15
+                    }
+                },
+                {
+                    "name": "Deadened Nerves",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "abilities/ability_rogue_deadenednerves",
+                    "maxRank": 5,
+                    "description": "Decreases all physical damage taken by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Find Weakness",
+                    "x": 3,
+                    "y": 8,
+                    "bgURL": "abilities/ability_rogue_findweakness",
+                    "maxRank": 5,
+                    "description": "Your finishing moves increase the damage of all offensive abilities by v0% for 10 sec.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Mutilate",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "abilities/ability_rogue_shadowstrikes",
+                    "maxRank": 1,
+                    "description": "Instantly attacks with both weapons for an additional 44 with each weapon. Damage is increased by 50% against Poisoned targets. Must be behind the target. Awards 2 combo points.",
+                    "dependencyName": "Vigor"
+                }
+            ]
+        },
+        {
+            "name": "Combat",
+            "bgURL": "rogue-combat-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Precision",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "abilities/ability_marksmanship",
+                    "maxRank": 5,
+                    "description": "Increases your chance to hit with melee weapons by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Dagger Specialization",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "weapons/inv_weapon_shortblade_05",
+                    "maxRank": 5,
+                    "description": "Increases your chance to get a critical strike with Daggers by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Fist Weapon Specialization",
+                    "x": 4,
+                    "y": 5,
+                    "bgURL": "armor/inv_gauntlets_04",
+                    "maxRank": 5,
+                    "description": "Increases your chance to get a critical strike with Fist Weapons by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Mace Specialization",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "weapons/inv_mace_01",
+                    "maxRank": 5,
+                    "description": "Increases the damage dealt by your critical strikes with maces by v0%, and gives you a v1% chance to stun your target for 3 sec with a mace.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Lightning Reflexes",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "spells/spell_nature_invisibilty",
+                    "maxRank": 5,
+                    "description": "Increases your Dodge chance by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Deflection",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "abilities/ability_parry",
+                    "maxRank": 5,
+                    "description": "Increases your Parry chance by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Improved Sinister Strike",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_shadow_ritualofsacrifice",
+                    "maxRank": 2,
+                    "description": "Reduces the Energy cost of your Sinister Strike ability by v0.",
+                    "values": {
+                        "v0": [
+                            3,
+                            5
+                        ]
+                    }
+                },
+                {
+                    "name": "Improved Slice and Dice",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "abilities/ability_rogue_slicedice",
+                    "maxRank": 3,
+                    "description": "Increases the duration of your Slice and Dice ability by v0%.",
+                    "values": {
+                        "v0": 15
+                    }
+                },
+                {
+                    "name": "Improved Gouge",
+                    "x": 1,
+                    "y": 1,
+                    "bgURL": "abilities/ability_gouge",
+                    "maxRank": 3,
+                    "description": "Increases the effect duration of your Gouge ability by v0 sec.",
+                    "values": {
+                        "v0": 0.5
+                    }
+                },
+                {
+                    "name": "Endurance",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_shadow_shadowward",
+                    "maxRank": 2,
+                    "description": "Reduces the cooldown of your Sprint and Evasion abilities by v0 sec",
+                    "values": {
+                        "v0": [
+                            45,
+                            1.5
+                        ]
+                    }
+                },
+                {
+                    "name": "Adrenaline Rush",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_shadow_shadowworddominate",
+                    "maxRank": 1,
+                    "description": "Increases your Energy regeneration rate by 100% for 15 sec."
+                },
+                {
+                    "name": "Improved Kick",
+                    "x": 1,
+                    "y": 4,
+                    "bgURL": "abilities/ability_kick",
+                    "maxRank": 2,
+                    "description": "Gives your Kick ability a v0% chance to silence the target for 2 sec.",
+                    "values": {
+                        "v0": 50
+                    }
+                },
+                {
+                    "name": "Dual Wield Specialization",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "abilities/ability_dualwield",
+                    "maxRank": 5,
+                    "description": "Increases the damage done by your offhand weapon by v0%.",
+                    "values": {
+                        "v0": 10
+                    },
+                    "dependencyName": "Precision"
+                },
+                {
+                    "name": "Improved Sprint",
+                    "x": 4,
+                    "y": 3,
+                    "bgURL": "abilities/ability_rogue_sprint",
+                    "maxRank": 2,
+                    "description": "Gives a v0% chance to remove all movement imparing effects when you activate your Sprint ability.",
+                    "values": {
+                        "v0": 50
+                    }
+                },
+                {
+                    "name": "Blade Flurry",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "abilities/ability_warrior_punishingblow",
+                    "maxRank": 1,
+                    "description": "Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec."
+                },
+                {
+                    "name": "Sword Specialization",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "weapons/inv_sword_27",
+                    "maxRank": 5,
+                    "description": "Gives you a v0% chance to get an extra attack on the same target after dealing damage with your Sword.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Riposte",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "abilities/ability_warrior_challange",
+                    "maxRank": 1,
+                    "description": "A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and disarms the target for 6 sec.",
+                    "dependencyName": "Deflection"
+                },
+                {
+                    "name": "Aggression",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "abilities/ability_racial_avatar",
+                    "maxRank": 3,
+                    "description": "Increases the damage of your Sinister Strike and Eviscerate abilities by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Weapon Expertise",
+                    "x": 2,
+                    "y": 6,
+                    "bgURL": "spells/spell_holy_blessingofstrength",
+                    "maxRank": 2,
+                    "description": "Increases your expertise by v0.",
+                    "values": {
+                        "v0": 5
+                    },
+                    "dependencyName": "Blade Flurry"
+                },
+                {
+                    "name": "Blade Twisting",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "abilities/ability_rogue_bladetwisting",
+                    "maxRank": 2,
+                    "description": "Gives your Sinister Strike, Backstab, Gouge and Shiv abilities a v0% chance to Daze the target for 8 sec.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Vitality",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "abilities/ability_warrior_revenge",
+                    "maxRank": 2,
+                    "description": "Increases your total Stamina by v0% and your total Agility by v1%.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Nerves of Steel",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "abilities/ability_rogue_nervesofsteel",
+                    "maxRank": 2,
+                    "description": "Increases your chance to resist Stun and Fear effects by an additional v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Combat Potency",
+                    "x": 3,
+                    "y": 8,
+                    "bgURL": "weapons/inv_weapon_shortblade_38",
+                    "maxRank": 5,
+                    "description": "Gives your successful off-hand melee attacks a 20% chance to generate v0 Energy.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Surprise Attacks",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "abilities/ability_rogue_surpriseattack",
+                    "maxRank": 1,
+                    "description": "Your finishing moves can no longer be dodged, and the damage dealt by your Sinister Strike, Backstab, Shiv and Gouge abilities is increased by 10%.",
+                    "dependencyName": "Adrenaline Rush"
+                }
+            ]
+        },
+        {
+            "name": "Subtlety",
+            "bgURL": "rogue-subtlety-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Master of Deception",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_shadow_charm",
+                    "maxRank": 5,
+                    "description": "Reduces the chance enemies have to detect you while in Stealth mode."
+                },
+                {
+                    "name": "Camouflage",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "abilities/ability_stealth",
+                    "maxRank": 5,
+                    "description": "Increases your speed while stealthed by v0% and reduces the cooldown of your Stealth ability by v1 sec.",
+                    "values": {
+                        "v0": 3,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Initiative",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_shadow_fumble",
+                    "maxRank": 3,
+                    "description": "Gives you a v0% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+                    "values": {
+                        "v0": 25
+                    }
+                },
+                {
+                    "name": "Setup",
+                    "x": 1,
+                    "y": 4,
+                    "bgURL": "spells/spell_nature_mirrorimage",
+                    "maxRank": 3,
+                    "description": "Gives you a v0% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
+                    "values": {
+                        "v0": 15
+                    }
+                },
+                {
+                    "name": "Elusiveness",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "spells/spell_magic_lesserinvisibilty",
+                    "maxRank": 2,
+                    "description": "Reduces the cooldown of your Vanish and Blind abilities by v0 sec.",
+                    "values": {
+                        "v0": [
+                            45,
+                            1.5
+                        ]
+                    }
+                },
+                {
+                    "name": "Opportunity",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "abilities/ability_warrior_warcry",
+                    "maxRank": 5,
+                    "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, Mutilate, and Ambush abilities by v0%.",
+                    "values": {
+                        "v0": 4
+                    }
+                },
+                {
+                    "name": "Dirty Tricks",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "abilities/ability_sap",
+                    "maxRank": 2,
+                    "description": "Increases the range of your Blind and Sap abilities by v0 yards and reduces the energy cost of your Blind and Sap abilities by v1%.",
+                    "values": {
+                        "v0": [
+                            2,
+                            5
+                        ],
+                        "v1": 25
+                    }
+                },
+                {
+                    "name": "Improved Ambush",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "abilities/ability_rogue_ambush",
+                    "maxRank": 3,
+                    "description": "Increases the critical strike chance of your Ambush ability by v0%.",
+                    "values": {
+                        "v0": 15
+                    }
+                },
+                {
+                    "name": "Dirty Deeds",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "spells/spell_shadow_summonsuccubus",
+                    "maxRank": 2,
+                    "description": "Reduces the Energy cost of your Cheap Shot and Garrote abilities by v0. Additionally, your special abilities cause v1% more damage against targets below 35% health.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Preparation",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "spells/spell_shadow_antishadow",
+                    "maxRank": 1,
+                    "description": "When activated, this ability immediately finishes the cooldown on your Evasion, Sprint, Vanish, Cold Blood, Adrenaline Rush and Premeditation abilities."
+                },
+                {
+                    "name": "Ghostly Strike",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "spells/spell_shadow_curse",
+                    "maxRank": 1,
+                    "description": "A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point."
+                },
+                {
+                    "name": "Premeditation",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_shadow_possession",
+                    "maxRank": 1,
+                    "description": "When used, adds 2 combo points to your target. You must add to or use those combo points within 10 sec or the combo points are lost.",
+                    "dependencyName": "Preparation"
+                },
+                {
+                    "name": "Hemorrhage",
+                    "x": 4,
+                    "y": 5,
+                    "bgURL": "spells/spell_shadow_lifedrain",
+                    "maxRank": 1,
+                    "description": "An instant strike that deals 110% weapon damage and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to 13. Lasts 10 charges or 15 sec. Awards 1 combo point.",
+                    "dependencyName": "Serrated Blades"
+                },
+                {
+                    "name": "Serrated Blades",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "weapons/inv_sword_17",
+                    "maxRank": 3,
+                    "description": "Causes your attacks to ignore v0 of your target's Armor and increases the damage dealt by your Rupture ability by v1%. The amount of Armor reduced increases with your level.",
+                    "values": {
+                        "v0": [
+                            186,
+                            373,
+                            560
+                        ],
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Sleight of Hand",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "abilities/ability_rogue_feint",
+                    "maxRank": 2,
+                    "description": "Reduces the chance you are critically hit by melee and ranged attacks by v0% and increases the threat reduced by your Feint ability by v1%.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Heightened Senses",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "abilities/ability_ambush",
+                    "maxRank": 2,
+                    "description": "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Deadliness",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "weapons/inv_weapon_crossbow_11",
+                    "maxRank": 5,
+                    "description": "Increases your Attack Power by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Master of Subtlety",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "abilities/ability_rogue_masterofsubtlety",
+                    "maxRank": 3,
+                    "description": "Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional v0% damage.",
+                    "values": {
+                        "v0": [
+                            4,
+                            7,
+                            10
+                        ]
+                    }
+                },
+                {
+                    "name": "Enveloping Shadows",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "abilities/ability_rogue_envelopingshadows",
+                    "maxRank": 3,
+                    "description": "Increases your chance to avoid area of effect attacks by an additional v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Cheat Death",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "abilities/ability_rogue_cheatdeath",
+                    "maxRank": 3,
+                    "description": "You have a v0% chance that an attack which would otherwise kill you will instead reduce you to 10% of your maximum health. In Addition, all damage taken will be reduced by up to 90% for 3 sec (modified by resilience). This effect cannot occur more than once per minute.",
+                    "values": {
+                        "v0": [
+                            33,
+                            66,
+                            100
+                        ]
+                    }
+                },
+                {
+                    "name": "Sinister Calling",
+                    "x": 2,
+                    "y": 8,
+                    "bgURL": "abilities/ability_rogue_sinistercalling",
+                    "maxRank": 5,
+                    "description": "Increases your total Agility by v0% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional v1%.",
+                    "values": {
+                        "v0": 3,
+                        "v1": 1
+                    },
+                    "dependencyName": "Premeditation"
+                },
+                {
+                    "name": "Shadowstep",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "abilities/ability_rogue_shadowstep",
+                    "maxRank": 1,
+                    "description": "Attempts to step through the shadows and reappear behind your enemy and increases movement speed by 70% for 3 sec. The damage of your next ability is increased by 20% and the threat caused is reduced by 50%. Lasts 10 sec."
+                }
+            ]
+        }
+    ]
+}

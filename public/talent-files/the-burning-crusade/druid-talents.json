@@ -1,0 +1,736 @@
+{
+    "id": 3,
+    "expId": 1,
+    "name": "druid Talents",
+    "trees": [
+        {
+            "name": "Balance",
+            "bgURL": "druid-balance-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Nature's Grasp",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_nature_natureswrath",
+                    "maxRank": 1,
+                    "description": "While active, any time an enemy strikes the caster they have a 35% chance to become afflicted by Entangling Roots (Rank 1). Only useable outdoors. 1 charge. Lasts 45 sec."
+                },
+                {
+                    "name": "Starlight Wrath",
+                    "x": 1,
+                    "y": 1,
+                    "bgURL": "spells/spell_nature_abolishmagic",
+                    "maxRank": 5,
+                    "description": "Reduces the cast time of your Wrath and Starfire spells by v0 sec.",
+                    "values": {
+                        "v0": [
+                            0.1,
+                            0.2,
+                            0.3,
+                            0.4,
+                            0.5
+                        ]
+                    }
+                },
+                {
+                    "name": "Improved Moonfire",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "spells/spell_nature_starfall",
+                    "maxRank": 2,
+                    "description": "Increases the damage and critical strike chance of your Moonfire spell by v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Nature's Reach",
+                    "x": 4,
+                    "y": 3,
+                    "bgURL": "spells/spell_nature_naturetouchgrow",
+                    "maxRank": 2,
+                    "description": "Increases the range of your Balance spells and Faerie Fire (Feral) ability by v0%.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Brambles",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_nature_thorns",
+                    "maxRank": 3,
+                    "description": "Increases damage caused by your Thorns and Entangling Roots spells by v0%.",
+                    "values": {
+                        "v0": 25
+                    }
+                },
+                {
+                    "name": "Moonglow",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "spells/spell_nature_sentinal",
+                    "maxRank": 3,
+                    "description": "Reduces the Mana cost of your Moonfire, Starfire, Wrath, Healing Touch, Regrowth and Rejuvenation spells by v0%.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Celestial Focus",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "spells/spell_arcane_starfire",
+                    "maxRank": 3,
+                    "description": "Gives your Starfire spell a v0% chance to stun the target for 3 sec and increases the chance you'll resist spell interruption when casting your Wrath spell by v1%.",
+                    "values": {
+                        "v0": 5,
+                        "v1": [
+                            25,
+                            50,
+                            70
+                        ]
+                    }
+                },
+                {
+                    "name": "Control of Nature",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "spells/spell_nature_stranglevines",
+                    "maxRank": 3,
+                    "description": "Gives you a v0% chance to avoid interruption caused by damage while casting Entangling Roots and Cyclone.",
+                    "values": {
+                        "v0": [
+                            40,
+                            70,
+                            100
+                        ]
+                    }
+                },
+                {
+                    "name": "Insect Swarm",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "spells/spell_nature_insectswarm",
+                    "maxRank": 1,
+                    "description": "The enemy target is swarmed by insects, decreasing their chance to hit by 2% and causing 108 Nature damage over 12 sec."
+                },
+                {
+                    "name": "Nature's Grace",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "spells/spell_nature_naturesblessing",
+                    "maxRank": 1,
+                    "description": "All spell criticals grace you with a blessing of nature, reducing the casting time of your next spell by 0.5 sec."
+                },
+                {
+                    "name": "Moonfury",
+                    "x": 2,
+                    "y": 6,
+                    "bgURL": "spells/spell_nature_moonglow",
+                    "maxRank": 5,
+                    "description": "Increases the damage done by your Starfire, Moonfire and Wrath spells by v0%.",
+                    "values": {
+                        "v0": 2
+                    },
+                    "dependencyName": "Nature's Grace"
+                },
+                {
+                    "name": "Focused Starlight",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "weapons/inv_staff_01",
+                    "maxRank": 2,
+                    "description": "Increases the critical strike chance of your Wrath and Starfire spells by 2%."
+                },
+                {
+                    "name": "Vengeance",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "spells/spell_nature_purge",
+                    "maxRank": 5,
+                    "description": "Increases the critical strike damage bonus of your Starfire, Moonfire, and Wrath spells by v0%.",
+                    "values": {
+                        "v0": 20
+                    },
+                    "dependencyName": "Focused Starlight"
+                },
+                {
+                    "name": "Moonkin Form",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_nature_forceofnature",
+                    "maxRank": 1,
+                    "description": "Transforms the Druid into Moonkin Form. While in this form the armor contribution from items is increased by 400%, attack power is increased by 150% of your level and all party members within 30 yards have their spell critical chance increased by 5%. Melee attacks in this form have a chance on hit to regenerate mana based on attack power. The Moonkin can only cast Balance spells while shapeshifted.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects."
+                },
+                {
+                    "name": "Improved Nature's Grasp",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "spells/spell_nature_natureswrath",
+                    "maxRank": 4,
+                    "description": "Increases the chance for your Nature's Grasp to entangle an enemy by v0%.",
+                    "values": {
+                        "v0": [
+                            15,
+                            30,
+                            45,
+                            65
+                        ]
+                    },
+                    "dependencyName": "Nature's Grasp"
+                },
+                {
+                    "name": "Lunar Guidance",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "abilities/ability_druid_lunarguidance",
+                    "maxRank": 3,
+                    "description": "Increases your spell damage and healing by v0% of your total Intellect.",
+                    "values": {
+                        "v0": [
+                            8,
+                            16,
+                            25
+                        ]
+                    }
+                },
+                {
+                    "name": "Balance of Power",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "abilities/ability_druid_balanceofpower",
+                    "maxRank": 2,
+                    "description": "Increases your chance to hit with all spells and reduces the chance you'll be hit by spells by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Dreamstate",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "abilities/ability_druid_dreamstate",
+                    "maxRank": 3,
+                    "description": "Regenerate mana equal to v0% of your Intellect every 5 sec, even while casting.",
+                    "values": {
+                        "v0": [
+                            4,
+                            7,
+                            10
+                        ]
+                    }
+                },
+                {
+                    "name": "Improved Faerie Fire",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "spells/spell_nature_faeriefire",
+                    "maxRank": 3,
+                    "description": "Your Faerie Fire spell also increases the chance the target will be hit by melee and ranged attacks by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Wrath of Cenarius",
+                    "x": 2,
+                    "y": 8,
+                    "bgURL": "abilities/ability_druid_twilightswrath",
+                    "maxRank": 5,
+                    "description": "Your Starfire spell gains an additional v0% and your Wrath gains an additional v1% of your bonus damage effects.",
+                    "values": {
+                        "v0": 4,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Force of Nature",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "abilities/ability_druid_forceofnature",
+                    "maxRank": 1,
+                    "description": "Summons 3 treants to attack the enemy target for 30 sec."
+                }
+            ]
+        },
+        {
+            "name": "Feral",
+            "bgURL": "druid-feral-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Thick Hide",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "trade/inv_misc_pelt_bear_03",
+                    "maxRank": 3,
+                    "description": "Increases your Armor contribution from items by v0%.",
+                    "values": {
+                        "v0": [
+                            4,
+                            7,
+                            10
+                        ]
+                    }
+                },
+                {
+                    "name": "Feral Aggression",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "abilities/ability_druid_challangingroar",
+                    "maxRank": 5,
+                    "description": "Increases the Attack Power reduction of your Demoralizing Roar by v0% and the damage caused by your Ferocious Bite by v1%.",
+                    "values": {
+                        "v0": 8,
+                        "v1": 3
+                    }
+                },
+                {
+                    "name": "Ferocity",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "abilities/ability_hunter_pet_hyena",
+                    "maxRank": 5,
+                    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by v0 Rage or Energy.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Brutal Impact",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "abilities/ability_druid_bash",
+                    "maxRank": 2,
+                    "description": "Increases the stun duration of your Bash and Pounce abilities by v0 sec.",
+                    "values": {
+                        "v0": 0.5
+                    }
+                },
+                {
+                    "name": "Sharpened Claws",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "items/inv_misc_monsterclaw_04",
+                    "maxRank": 3,
+                    "description": "Increases your critical strike chance while in Bear, Dire Bear or Cat Form by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Feral Instinct",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "abilities/ability_ambush",
+                    "maxRank": 3,
+                    "description": "Increases threat caused in Bear and Dire Bear Form by v0% and reduces the chance enemies have to detect you while Prowling.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Primal Fury",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "abilities/ability_racial_cannibalize",
+                    "maxRank": 2,
+                    "description": "Gives you a v0% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form and your critical strikes from Cat Form abilities that add combo points have a v1% chance to add an additional combat point.",
+                    "values": {
+                        "v0": 50,
+                        "v1": 50
+                    },
+                    "dependencyName": "Sharpened Claws"
+                },
+                {
+                    "name": "Shredding Attacks",
+                    "x": 1,
+                    "y": 4,
+                    "bgURL": "spells/spell_shadow_vampiricaura",
+                    "maxRank": 2,
+                    "description": "Reduces the energy cost of your Shred ability by v0 and the rage cost of your Lacerate ability by v1.",
+                    "values": {
+                        "v0": 9,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Predatory Strikes",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "abilities/ability_hunter_pet_cat",
+                    "maxRank": 3,
+                    "description": "Increases your melee attack power in Cat, Bear, Dire Bear and Moonkin Forms by v0% of your level.",
+                    "values": {
+                        "v0": 50
+                    }
+                },
+                {
+                    "name": "Feral Charge",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "abilities/ability_hunter_pet_bear",
+                    "maxRank": 1,
+                    "description": "Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec."
+                },
+                {
+                    "name": "Savage Fury",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "abilities/ability_druid_ravage",
+                    "maxRank": 2,
+                    "description": "Increases the damage caused by your Claw, Rake and Mangle (Cat) abilities by v0%.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Feral Swiftness",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_nature_spiritwolf",
+                    "maxRank": 2,
+                    "description": "Increases your movement speed by v0% while outdoors in Cat Form and increases your chance to dodge while in Cat Form, Bear Form and Dire Bear Form by v1%.",
+                    "values": {
+                        "v0": 15,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Heart of the Wild",
+                    "x": 2,
+                    "y": 6,
+                    "bgURL": "spells/spell_holy_blessingofagility",
+                    "maxRank": 5,
+                    "description": "Increases your Intellect by v0%. In addition, while in Bear or Dire Bear Form your Stamina is increased by v1% and while in Cat Form your Strength is increased by v2%.",
+                    "values": {
+                        "v0": 4,
+                        "v1": 4,
+                        "v2": 2
+                    },
+                    "dependencyName": "Predatory Strikes"
+                },
+                {
+                    "name": "Leader of the Pack",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_nature_unyeildingstamina",
+                    "maxRank": 1,
+                    "description": "While in Cat, Bear or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by 5%."
+                },
+                {
+                    "name": "Faerie Fire (Feral)",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "spells/spell_nature_faeriefire",
+                    "maxRank": 1,
+                    "description": "Decrease the armor of the target by 175 for 40 sec. While affected, the target cannot stealth or turn invisible."
+                },
+                {
+                    "name": "Nurturing Instinct",
+                    "x": 4,
+                    "y": 5,
+                    "bgURL": "abilities/ability_druid_healinginstincts",
+                    "maxRank": 2,
+                    "description": "Increases your healing spells by up to v0% of your agility, and increases healing done to you by v1% while in Cat Form.",
+                    "values": {
+                        "v0": 50,
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Survival of the Fittest",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "abilities/ability_druid_enrage",
+                    "maxRank": 3,
+                    "description": "Increases all attributes by v0% and reduces the chance you'll be critically hit by melee attacks by v1%.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Primal Tenacity",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "abilities/ability_druid_primaltenacity",
+                    "maxRank": 3,
+                    "description": "Increases your chance to resist Stun and Fear mechanics by v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Improved Leader of the Pack",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "spells/spell_nature_unyeildingstamina",
+                    "maxRank": 2,
+                    "description": "Your Leader of the Pack ability also causes affected targets to have a 100% chance to heal themselves for v0% of their total health when they critically hit with a melee or ranged attack. The healing effect cannot occur more than once every 6 sec.",
+                    "values": {
+                        "v0": 2
+                    },
+                    "dependencyName": "Leader of the Pack"
+                },
+                {
+                    "name": "Predatory Instincts",
+                    "x": 3,
+                    "y": 8,
+                    "bgURL": "abilities/ability_druid_predatoryinstincts",
+                    "maxRank": 5,
+                    "description": "While in Cat Form, Bear Form, or Dire Bear Form, increases your damage from melee critical strikes by v0% and your chance to avoid area effect attacks by v1%.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 3
+                    }
+                },
+                {
+                    "name": "Mangle",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "abilities/ability_druid_mangle2",
+                    "maxRank": 1,
+                    "description": "Mangle the target, inflicting damage and causing the target to take additional damage from bleed effects for 12 sec. This ability can be used in Cat Form or Dire Bear Form.",
+                    "dependencyName": "Leader of the Pack"
+                }
+            ]
+        },
+        {
+            "name": "Restoration",
+            "bgURL": "druid-restoration-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Improved Mark of the Wild",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_nature_regeneration",
+                    "maxRank": 5,
+                    "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by v0%.",
+                    "values": {
+                        "v0": 7
+                    }
+                },
+                {
+                    "name": "Furor",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "spells/spell_holy_blessingofstamina",
+                    "maxRank": 5,
+                    "description": "Gives you v0% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form.",
+                    "values": {
+                        "v0": 20
+                    }
+                },
+                {
+                    "name": "Nature's Focus",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "spells/spell_nature_healingwavegreater",
+                    "maxRank": 5,
+                    "description": "Gives you a v0% chance to avoid interruption caused by damage while casting the Healing Touch, Regrowth and Tranquility spells.",
+                    "values": {
+                        "v0": 14
+                    }
+                },
+                {
+                    "name": "Naturalist",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "spells/spell_nature_healingtouch",
+                    "maxRank": 5,
+                    "description": "Reduces the cast time of your Healing Touch spell by v0 sec and increases the damage you deal with physical attacks in all forms by v1%.",
+                    "values": {
+                        "v0": [
+                            0.1,
+                            0.2,
+                            0.3,
+                            0.4,
+                            0.5
+                        ],
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Improved Regrowth",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "spells/spell_nature_resistnature",
+                    "maxRank": 5,
+                    "description": "Increases the critical effect chance of your Regrowth spell by v0%.",
+                    "values": {
+                        "v0": 10
+                    },
+                    "dependencyName": "Improved Rejuvenation"
+                },
+                {
+                    "name": "Natural Shapeshifter",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "spells/spell_nature_wispsplode",
+                    "maxRank": 3,
+                    "description": "Reduces the mana cost of all shapeshifting by v0%.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Omen of Clarity",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "spells/spell_nature_crystalball",
+                    "maxRank": 1,
+                    "description": "Imbues the Druid with natural energy. Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state. The Clearcasting state reduces the Mana, Rage or Energy cost of your next damage or healing spell or offensive ability by 100%. Lasts 30 min."
+                },
+                {
+                    "name": "Gift of Nature",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "spells/spell_nature_protectionformnature",
+                    "maxRank": 5,
+                    "description": "Increases the effect of all healing spells by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Intensity",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_frost_windwalkon",
+                    "maxRank": 3,
+                    "description": "Allows v0% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate v1 rage.",
+                    "values": {
+                        "v0": 10,
+                        "v1": [
+                            4,
+                            7,
+                            10
+                        ]
+                    }
+                },
+                {
+                    "name": "Improved Rejuvenation",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "spells/spell_nature_rejuvenation",
+                    "maxRank": 3,
+                    "description": "Increases the effect of your Rejuvenation spell by v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Nature's Swiftness",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "spells/spell_nature_ravenform",
+                    "maxRank": 1,
+                    "description": "When activated, your next Nature spell becomes an instant cast spell.",
+                    "dependencyName": "Intensity"
+                },
+                {
+                    "name": "Subtlety",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "abilities/ability_eyeoftheowl",
+                    "maxRank": 5,
+                    "description": "Reduces the threat generated by your spells by v0% and reduces the chance your spells will be dispelled by v1%.",
+                    "values": {
+                        "v0": 4,
+                        "v1": 6
+                    }
+                },
+                {
+                    "name": "Improved Tranquility",
+                    "x": 4,
+                    "y": 5,
+                    "bgURL": "spells/spell_nature_tranquility",
+                    "maxRank": 2,
+                    "description": "Reduces threat caused by Tranquility by v0%.",
+                    "values": {
+                        "v0": 50
+                    }
+                },
+                {
+                    "name": "Tranquil Spirit",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_elunesgrace",
+                    "maxRank": 5,
+                    "description": "Reduces the mana cost of your Healing Touch and Tranquility spells by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Swiftmend",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "items/inv_relics_idolofrejuvenation",
+                    "maxRank": 1,
+                    "description": "Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth.",
+                    "dependencyName": "Gift of Nature"
+                },
+                {
+                    "name": "Empowered Touch",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "abilities/ability_druid_empoweredtouch",
+                    "maxRank": 2,
+                    "description": "Your Healing Touch spell gains an additional v0% of your bonus healing effects.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Living Spirit",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "spells/spell_nature_giftofthewaterspirit",
+                    "maxRank": 3,
+                    "description": "Increases your total Spirit by v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Natural Perfection",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "abilities/ability_druid_naturalperfection",
+                    "maxRank": 3,
+                    "description": "Your critical strike chance with all spells is increased by v0% and critical strikes against you give you the Natural Perfection effect reducing all damage taken by v1%. Stacks up to 3 times. Lasts 8 sec.",
+                    "values": {
+                        "v0": 1,
+                        "v1": [
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "name": "Empowered Rejuvenation",
+                    "x": 2,
+                    "y": 8,
+                    "bgURL": "abilities/ability_druid_empoweredrejuvenation",
+                    "maxRank": 5,
+                    "description": "The bonus healing effects of your healing over time spells is increased by v0%.",
+                    "values": {
+                        "v0": 4
+                    }
+                },
+                {
+                    "name": "Tree of Life",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "abilities/ability_druid_treeoflife",
+                    "maxRank": 1,
+                    "description": "Transforms the Druid into the Tree of Life Form. While in this form you increase healing received by 25% of your total Spirit for all party members within 45 yards, your movement speed is reduced by 20%, and you can only cast Swiftmend, Innervate, Nature's Swiftness, Rebirth and healing over time spells, but the mana cost of these spells is reduced by 20%.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
+                    "dependencyName": "Empowered Rejuvenation"
+                }
+            ]
+        }
+    ]
+}

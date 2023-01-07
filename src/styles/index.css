@@ -1,0 +1,190 @@
+/*
+=============== 
+#Variables
+===============
+*/
+:root {
+	/* colors */
+	--clr-black: #222;
+	--clr-blue: #0f6ba5;
+	--clr-dark-blue: #002237;
+	--clr-dark-green: #273800;
+	--clr-dark-grey: #555;
+	--clr-green: #1e9822;
+	--clr-grey: #898989;
+	--clr-light-blue: #08d;
+	--clr-light-green: #41e044;
+	--clr-light-grey: #c1c1c1;
+	--clr-light-red: #ee0000;
+	--clr-red: #a10c0c;
+	--clr-silver: #d9d9d9;
+	--clr-yellow: #ffcc10;
+	--clr-white: #eee;
+
+	/* color semantics */
+	--clr-font-disabled: var(--clr-grey);
+	--clr-font-primary: var(--clr-black);
+	--clr-allowed: var(--clr-green);
+	--clr-disabled: var(--clr-dark-grey);
+	--clr-warning: var(--clr-red);
+
+	/* text color semantics */
+	--clr-text-allowed: var(--clr-light-green);
+	--clr-text-disabled: var(--clr-grey);
+	--clr-text-warning: var(--clr-light-red);
+
+	/* misc. */
+	--border-radius: 6px;
+	--max-width: 72rem;
+
+	/* text */
+	--line-height: 1.5;
+
+	/* z-indexes */
+	--z-index-modal: 999;
+	--z-index-scroll-btn: 998;
+}
+
+
+/*
+=============== 
+#General
+===============
+*/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 18px;
+	position: relative;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--clr-white);
+	color: var(--clr-black);
+	font-family: serif;
+	font-size: calc(.65rem + .75vmin);
+	line-height: var(--line-height);
+	overflow-x: hidden;
+	text-shadow: 0 2px 2px var(--clr-black);
+	transition: background-color .5s linear;
+}
+
+main {
+	min-height: 50vh;
+}
+
+ul {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: capitalize;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 0.875rem;
+}
+
+p {
+	margin: .25rem 0;
+}
+
+label {
+	font-size: 1.1rem;
+	font-weight: 900;
+	margin-right: .25rem;
+}
+
+/* React entry point element that contains all other elements;
+  force the footer to stay at the bottom of the page */
+#root {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+
+/*
+===============
+#Visibility
+===============
+*/
+.hidden {
+	display: none !important;
+}
+
+.hidden-keep-space {
+	visibility: hidden;
+}
+
+.no-overflow {
+	overflow: hidden !important;
+}
+
+
+/*
+=============== 
+#Containers
+===============
+*/
+.container-lg {
+	border-radius: var(--radius);
+	margin: 1rem auto;
+	min-width: 18rem;
+	max-width: var(--max-width);
+	padding: 0 1rem;
+	width: 96%;
+}
+
+
+/*
+===============
+#Expansion Themes
+===============
+*/
+.theme-classic {
+	--clr-highlight: var(--clr-yellow);
+	--clr-dark-fill: var(--clr-dark-blue);
+	--clr-fill: var(--clr-blue);
+}
+
+.theme-tbc {
+	--clr-highlight: var(--clr-yellow);
+	--clr-dark-fill: var(--clr-dark-green);
+	--clr-fill: var(--clr-green);
+}
+
+.theme-wotlk {
+	--clr-highlight: var(--clr-silver);
+	--clr-dark-fill: var(--clr-dark-blue);
+	--clr-fill: var(--clr-blue);
+}

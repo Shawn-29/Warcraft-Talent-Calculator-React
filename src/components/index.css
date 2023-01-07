@@ -1,0 +1,83 @@
+/*
+===============
+#Variables
+===============
+*/
+:root {
+	/* z-indexes */
+	--z-index-branch: 1;
+	--z-index-talent: 2;
+	--z-index-rank-box: 3;
+	--z-index-calc-header: 4;
+	--z-index-tooltip: 5;
+
+	/* colors */
+	--clr-max-rank: var(--clr-yellow);
+}
+
+
+/*
+===============
+#Divider
+===============
+*/
+.divider {
+	background: radial-gradient(var(--clr-light-grey), transparent 75%);
+	border: none;
+	height: .5rem;
+	margin: 1rem 0;
+}
+
+
+/*
+===============
+#Borders
+===============
+*/
+.talent-allowed {
+	border-color: var(--clr-text-allowed);
+	color: var(--clr-text-allowed);	
+}
+
+.talent-disabled {
+	border-color: var(--clr-disabled);
+	color: var(--clr-text-disabled);
+	filter: grayscale(1);
+}
+
+.talent-max-rank {
+	border-color: var(--clr-max-rank);
+	color: var(--clr-max-rank);	
+}
+
+.theme-border {
+    border: 2px solid var(--clr-highlight);
+	border-radius: var(--border-radius);
+	box-shadow: 0 0 2px 2px var(--clr-black), 0 0 2px 2px var(--clr-black) inset;
+}
+
+
+/*
+===============
+#Text
+===============
+*/
+.text-allowed {
+	color: var(--clr-text-allowed);
+}
+
+.text-disabled {
+	color: var(--clr-text-disabled);
+}
+
+.text-highlight {
+	color: var(--clr-max-rank);
+}
+
+.text-max-rank {
+	color: var(--clr-max-rank);
+}
+
+.text-warning {
+	color: var(--clr-text-warning);
+}

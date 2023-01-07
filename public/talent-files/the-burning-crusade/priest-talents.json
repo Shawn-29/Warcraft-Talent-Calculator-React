@@ -1,0 +1,731 @@
+{
+    "id": 6,
+    "expId": 1,
+    "name": "priest Talents",
+    "trees": [
+        {
+            "name": "Discipline",
+            "bgURL": "priest-discipline-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Martyrdom",
+                    "x": 4,
+                    "y": 2,
+                    "bgURL": "spells/spell_nature_tranquility",
+                    "maxRank": 2,
+                    "description": "Gives you a v0% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage and increases resistance to Interrupt effects by v1%.",
+                    "values": {
+                        "v0": 50,
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Power Infusion",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_holy_powerinfusion",
+                    "maxRank": 1,
+                    "description": "Infuses the target with power, increasing spell casting speed by 20% and reducing the mana cost of all spells by 20%. Lasts 15 sec.",
+                    "dependencyName": "Mental Strength"
+                },
+                {
+                    "name": "Mental Agility",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "abilities/ability_hibernation",
+                    "maxRank": 5,
+                    "description": "Reduces the mana cost of your instant cast spells by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Unbreakable Will",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_magic_magearmor",
+                    "maxRank": 5,
+                    "description": "Increases your chance to resist Stun, Fear, and Silence effects by an additional v0%.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Improved Power Word: Shield",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "spells/spell_holy_powerwordshield",
+                    "maxRank": 3,
+                    "description": "Increases the damage absorbed by your Power Word: Shield by v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Improved Power Word: Fortitude",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "spells/spell_holy_wordfortitude",
+                    "maxRank": 2,
+                    "description": "Increases the effect of your Power Word: Fortitude and Prayer of Fortitude spells by v0%.",
+                    "values": {
+                        "v0": 15
+                    }
+                },
+                {
+                    "name": "Wand Specialization",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "weapons/inv_wand_01",
+                    "maxRank": 5,
+                    "description": "Increases your damage with Wands by v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Improved Inner Fire",
+                    "x": 1,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_innerfire",
+                    "maxRank": 3,
+                    "description": "Increases the Armor bonus of your Inner Fire spell by v0%.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Meditation",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "spells/spell_nature_sleep",
+                    "maxRank": 3,
+                    "description": "Allows v0% of your Mana regeneration to continue while casting.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Inner Focus",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "spells/spell_frost_windwalkon",
+                    "maxRank": 1,
+                    "description": "When activated, reduces the Mana cost of your next spell by 100% and increases its critical effect chance by 25% if it is capable of a critical effect."
+                },
+                {
+                    "name": "Improved Mana Burn",
+                    "x": 4,
+                    "y": 4,
+                    "bgURL": "spells/spell_shadow_manaburn",
+                    "maxRank": 2,
+                    "description": "Reduces the casting time of your Mana Burn spell by v0 sec.",
+                    "values": {
+                        "v0": 0.5
+                    }
+                },
+                {
+                    "name": "Divine Spirit",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "spells/spell_holy_divinespirit",
+                    "maxRank": 1,
+                    "description": "Holy power infuses the target, increasing their Spirit by 17 for 30 min.",
+                    "dependencyName": "Meditation"
+                },
+                {
+                    "name": "Silent Resolve",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "spells/spell_nature_manaregentotem",
+                    "maxRank": 5,
+                    "description": "Reduces the threat generated by your Holy and Discipline spells by v0% and reduces the chance your spells will be dispelled by v1%.",
+                    "values": {
+                        "v0": 4,
+                        "v1": 4
+                    }
+                },
+                {
+                    "name": "Mental Strength",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "spells/spell_nature_enchantarmor",
+                    "maxRank": 5,
+                    "description": "Increases your maximum Mana by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Force of Will",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "spells/spell_nature_slowingtotem",
+                    "maxRank": 5,
+                    "description": "Increases your spell damage by v0% and the critical strike chance of your offensive spells by v1%.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Absolution",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_absolution",
+                    "maxRank": 3,
+                    "description": "Reduces the mana cost of your Dispel Magic, Cure Disease, Abolish Disease and Mass Dispel spells by v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Improved Divine Spirit",
+                    "x": 4,
+                    "y": 5,
+                    "bgURL": "spells/spell_holy_divinespirit",
+                    "maxRank": 2,
+                    "description": "Your Divine Spirit and Prayer of Spirit spells also increase the target's spell damage and healing by an amount equal to v0% of their total Spirit.",
+                    "values": {
+                        "v0": 5
+                    },
+                    "dependencyName": "Divine Spirit"
+                },
+                {
+                    "name": "Focused Power",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "spells/spell_shadow_focusedpower",
+                    "maxRank": 2,
+                    "description": "Your Smite, Mind Blast and Mass dispel spells have an additional v0% chance to hit.  In addition, your Mass Dispel cast time is reduced by v1 sec.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 0.5
+                    }
+                },
+                {
+                    "name": "Focused Will",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "spells/spell_arcane_focusedpower",
+                    "maxRank": 3,
+                    "description": "After taking a critical hit you gain the Focused Will effect, reducing all damage taken by v0% and increasing healing effects on you by v1%.  Stacks up to 3 times.  Lasts 8 sec.",
+                    "values": {
+                        "v0": [
+                            2,
+                            3,
+                            4
+                        ],
+                        "v1": [
+                            4,
+                            7,
+                            10
+                        ]
+                    }
+                },
+                {
+                    "name": "Reflective Shield",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "spells/spell_holy_powerwordshield",
+                    "maxRank": 5,
+                    "description": "Causes v0% of the damage absorbed by your Power Word: Shield to reflect back at the attacker. This damage causes no threat.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Enlightenment",
+                    "x": 2,
+                    "y": 8,
+                    "bgURL": "spells/spell_arcane_mindmastery",
+                    "maxRank": 5,
+                    "description": "Increases your total Stamina, Intellect and Spirit by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Pain Suppression",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "spells/spell_holy_painsupression",
+                    "maxRank": 1,
+                    "description": "Instantly reduces a friendly target's threat by 5%, reduces all damage taken by 40% and increases resistance to dispel mechanics by 65% for 8 sec."
+                }
+            ]
+        },
+        {
+            "name": "Holy",
+            "bgURL": "priest-holy-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Inspiration",
+                    "x": 4,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_layonhands",
+                    "maxRank": 3,
+                    "description": "Increases your target's armor by v0% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, Binding Heal, Prayer of Healing, Prayer of Mending, or Circle of Healing spell.",
+                    "values": {
+                        "v0": [
+                            8,
+                            16,
+                            25
+                        ]
+                    }
+                },
+                {
+                    "name": "Holy Specialization",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "spells/spell_holy_sealofsalvation",
+                    "maxRank": 5,
+                    "description": "Increases the critical effect chance of your Holy spells by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Spiritual Guidance",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "spells/spell_holy_spiritualguidance",
+                    "maxRank": 5,
+                    "description": "Increases spell damage and healing by up to v0% of your total Spirit.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Searing Light",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_searinglightpriest",
+                    "maxRank": 2,
+                    "description": "Increases the damage of your Smite and Holy Fire spells by v0%.",
+                    "values": {
+                        "v0": 5
+                    },
+                    "dependencyName": "Divine Fury"
+                },
+                {
+                    "name": "Spiritual Healing",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "spells/spell_nature_moonglow",
+                    "maxRank": 5,
+                    "description": "Increases the amount healed by your healing spells by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Improved Renew",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_holy_renew",
+                    "maxRank": 3,
+                    "description": "Increases the amount healed by your Renew spell by v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Improved Healing",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_heal02",
+                    "maxRank": 3,
+                    "description": "Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Healing Focus",
+                    "x": 1,
+                    "y": 1,
+                    "bgURL": "spells/spell_holy_healingfocus",
+                    "maxRank": 2,
+                    "description": "Gives you a v0% chance to avoid interruption caused by damage while casting any healing spell.",
+                    "values": {
+                        "v0": 35
+                    }
+                },
+                {
+                    "name": "Spell Warding",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "spells/spell_holy_spellwarding",
+                    "maxRank": 5,
+                    "description": "Reduces all spell damage taken by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Healing Prayers",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "spells/spell_holy_prayerofhealing02",
+                    "maxRank": 2,
+                    "description": "Reduces the Mana cost of your Prayer of Healing and Prayer of Mending spells by v0%.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Holy Nova",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_holynova",
+                    "maxRank": 1,
+                    "description": "Causes an explosion of holy light around the caster, causing 29 to 34 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 54 to 63. These effects cause no threat."
+                },
+                {
+                    "name": "Divine Fury",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "spells/spell_holy_sealofwrath",
+                    "maxRank": 5,
+                    "description": "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by v0 sec.",
+                    "values": {
+                        "v0": [
+                            0.1,
+                            0.2,
+                            0.3,
+                            0.4,
+                            0.5
+                        ]
+                    }
+                },
+                {
+                    "name": "Spirit of Redemption",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "trade/inv_enchant_essenceeternallarge",
+                    "maxRank": 1,
+                    "description": "Increases total Spirit by 5% and upon death, the priest becomes the Spirit of Redemption for 15 sec.  The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects.  While in this form, the priest can cast any healing spell free of cost.  When the effect ends, the priest dies."
+                },
+                {
+                    "name": "Holy Reach",
+                    "x": 1,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_purify",
+                    "maxRank": 2,
+                    "description": "Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing, Holy Nova, and Circle of Healing spells by v0%.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Blessed Recovery",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_blessedrecovery",
+                    "maxRank": 3,
+                    "description": "After being struck by a melee or ranged critical hit, heal v0% of the damage taken over 6 sec.",
+                    "values": {
+                        "v0": [
+                            8,
+                            16,
+                            25
+                        ]
+                    }
+                },
+                {
+                    "name": "Lightwell",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_holy_summonlightwell",
+                    "maxRank": 1,
+                    "description": "Creates a holy Lightwell.  Members of your raid or party can click the Lightwell to restore 801 health over 6 sec. Any damage taken will cancel the effect.  Lightwell lasts for 3 min or 5 charges.",
+                    "dependencyName": "Spirit of Redemption"
+                },
+                {
+                    "name": "Surge of Light",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "spells/spell_holy_surgeoflight",
+                    "maxRank": 3,
+                    "description": "Your spell criticals have a v0% chance to cause your next Smite spell to be instant cast, cost no mana but be incapable of a critical hit. This effect lasts 10 sec.",
+                    "values": {
+                        "v0": 25
+                    }
+                },
+                {
+                    "name": "Holy Concentration",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "spells/spell_holy_fanaticism",
+                    "maxRank": 3,
+                    "description": "Gives you a v0% chance to enter a Clearcasting state after casting any Flash Heal, Binding Heal, or Greater Heal spell.  The Clearcasting state reduces the mana cost of your next Flash Heal, Binding Heal, or Greater Heal spell by 100%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Blessed Resilience",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "spells/spell_holy_blessedresilience",
+                    "maxRank": 3,
+                    "description": "Critical hits made against you have a v0% chance to prevent you from being critically hit again for 6 sec.",
+                    "values": {
+                        "v0": 20
+                    }
+                },
+                {
+                    "name": "Empowered Healing",
+                    "x": 2,
+                    "y": 8,
+                    "bgURL": "spells/spell_holy_greaterheal",
+                    "maxRank": 5,
+                    "description": "Your Greater Heal spell gains an additional v0% and your Flash Heal and Binding Heal gains an additional v1% of your bonus healing effects.",
+                    "values": {
+                        "v0": 4,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Circle of Healing",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "spells/spell_holy_circleofrenewal",
+                    "maxRank": 1,
+                    "description": "Heals friendly target and that target's party members within 15 yards of the target for 250 to 274."
+                }
+            ]
+        },
+        {
+            "name": "Shadow",
+            "bgURL": "priest-shadow-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Shadow Weaving",
+                    "x": 4,
+                    "y": 4,
+                    "bgURL": "spells/spell_shadow_blackplague",
+                    "maxRank": 5,
+                    "description": "Your Shadow damage spells have a v0% chance to cause your target to be vulnerable to Shadow damage. This vulnerability increases the Shadow damage dealt to your target by 2% and lasts 15 sec. Stacks up to 5 times.",
+                    "values": {
+                        "v0": 20
+                    }
+                },
+                {
+                    "name": "Darkness",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "spells/spell_shadow_twilight",
+                    "maxRank": 5,
+                    "description": "Increases your Shadow spell damage by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Shadow Focus",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "spells/spell_shadow_burningspirit",
+                    "maxRank": 5,
+                    "description": "Reduces your target's chance to resist your Shadow spells by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Blackout",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "spells/spell_shadow_gathershadows",
+                    "maxRank": 5,
+                    "description": "Gives your Shadow damage spells a v0% chance to stun the target for 3 sec.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Spirit Tap",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_shadow_requiem",
+                    "maxRank": 5,
+                    "description": "Gives you a v0% chance to gain a 100% bonus to your Spirit after killing a target that yields experience or honor.  For the duration, your Mana will regenerate at a 50% rate while casting. Lasts 15 sec.",
+                    "values": {
+                        "v0": 20
+                    }
+                },
+                {
+                    "name": "Shadow Affinity",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "spells/spell_shadow_shadowward",
+                    "maxRank": 3,
+                    "description": "Reduces the threat generated by your Shadow spells by v0%.",
+                    "values": {
+                        "v0": [
+                            8,
+                            16,
+                            25
+                        ]
+                    }
+                },
+                {
+                    "name": "Improved Mind Blast",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "spells/spell_shadow_unholyfrenzy",
+                    "maxRank": 5,
+                    "description": "Reduces the cooldown of your Mind Blast spell by v0 sec.",
+                    "values": {
+                        "v0": 0.5
+                    }
+                },
+                {
+                    "name": "Improved Shadow Word: Pain",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "spells/spell_shadow_shadowwordpain",
+                    "maxRank": 2,
+                    "description": "Increases the duration of your Shadow Word: Pain spell by v0 sec.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Improved Fade",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "spells/spell_magic_lesserinvisibilty",
+                    "maxRank": 2,
+                    "description": "Decreases the cooldown of your Fade ability by v0 sec.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Vampiric Embrace",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "spells/spell_shadow_unsummonbuilding",
+                    "maxRank": 1,
+                    "description": "Afflicts your target with Shadow energy that causes all party members to be healed for 15% of any Shadow damage you deal for 1 min."
+                },
+                {
+                    "name": "Mind Flay",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "spells/spell_shadow_siphonmana",
+                    "maxRank": 1,
+                    "description": "Assault the target's mind with Shadow energy, causing 75 damage over 3 sec and slowing the target to 50% of their movement speed."
+                },
+                {
+                    "name": "Shadowform",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_shadow_shadowform",
+                    "maxRank": 1,
+                    "description": "Assume a Shadowform, increasing your Shadow damage by 15% and reducing Physical damage done to you by 15%. However, you may not cast Holy spells while in this form.",
+                    "dependencyName": "Vampiric Embrace"
+                },
+                {
+                    "name": "Silence",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "spells/spell_shadow_impphaseshift",
+                    "maxRank": 1,
+                    "description": "Silences the target, preventing them from casting spells for 5 sec.",
+                    "dependencyName": "Improved Psychic Scream"
+                },
+                {
+                    "name": "Improved Psychic Scream",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_shadow_psychicscream",
+                    "maxRank": 2,
+                    "description": "Reduces the cooldown of your Psychic Scream spell by v0 sec.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Shadow Reach",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "spells/spell_shadow_chilltouch",
+                    "maxRank": 2,
+                    "description": "Increases the range of your offensive Shadow spells by v0%.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Improved Vampiric Embrace",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "spells/spell_shadow_improvedvampiricembrace",
+                    "maxRank": 2,
+                    "description": "Increases the percentage healed by Vampiric Embrace by an additional v0%.",
+                    "values": {
+                        "v0": 5
+                    },
+                    "dependencyName": "Vampiric Embrace"
+                },
+                {
+                    "name": "Focused Mind",
+                    "x": 4,
+                    "y": 5,
+                    "bgURL": "spells/spell_nature_focusedmind",
+                    "maxRank": 3,
+                    "description": "Reduces the mana cost of your Mind Blast, Mind Control and Mind Flay spells by v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Shadow Resilience",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "spells/spell_shadow_grimward",
+                    "maxRank": 2,
+                    "description": "Reduces the chance you'll be critically hit by all spells by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Shadow Power",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "spells/spell_shadow_shadowpower",
+                    "maxRank": 5,
+                    "description": "Increases the critical strike chance of your Mind Blast and Shadow Word: Death spells by v0%.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Misery",
+                    "x": 3,
+                    "y": 8,
+                    "bgURL": "spells/spell_shadow_misery",
+                    "maxRank": 5,
+                    "description": "Increases your total Stamina, Intellect, and Spirit by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Vampiric Touch",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "spells/spell_holy_stoicism",
+                    "maxRank": 1,
+                    "description": "Causes 495 Shadow damage over 15 sec to your target and causes all party members to gain mana equal to 5% of any Shadow spell damage you deal.",
+                    "dependencyName": "Shadowform"
+                }
+            ]
+        }
+    ]
+}

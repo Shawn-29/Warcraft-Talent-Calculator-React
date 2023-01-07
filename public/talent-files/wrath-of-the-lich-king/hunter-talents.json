@@ -1,0 +1,1185 @@
+{
+    "id": 4,
+    "expId": 2,
+    "name": "hunter Talents",
+    "trees": [
+        {
+            "name": "Beast Mastery",
+            "bgURL": "hunter-beast-mastery-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Improved Aspect of the Monkey",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "abilities/ability_hunter_aspectofthemonkey",
+                    "maxRank": 3,
+                    "description": "Increases the Dodge bonus of your Aspect of the Monkey and Aspect of the Dragonhawk by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Improved Aspect of the Hawk",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_nature_ravenform",
+                    "maxRank": 5,
+                    "description": "While Aspect of the Hawk or Dragonhawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by v0% for 12 sec.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Pathfinding",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "abilities/ability_mount_jungletiger",
+                    "maxRank": 2,
+                    "description": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by v0%, and increases your speed while mounted by v1%. The mounted movement speed increase does not stack with other effects.",
+                    "values": {
+                        "v0": 4,
+                        "v1": 5
+                    }
+                },
+                {
+                    "name": "Improved Mend Pet",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "abilities/ability_hunter_mendpet",
+                    "maxRank": 2,
+                    "description": "Reduces the mana cost of your Mend Pet spell by v0% and gives the Mend Pet spell a v1% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 25
+                    }
+                },
+                {
+                    "name": "Bestial Wrath",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "abilities/ability_druid_ferociousbite",
+                    "maxRank": 1,
+                    "description": "Send your pet into a rage causing 50% additional damage for 10 sec.  While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed.",
+                    "dependencyName": "Intimidation"
+                },
+                {
+                    "name": "Intimidation",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "abilities/ability_devour",
+                    "maxRank": 1,
+                    "description": "Command your pet to intimidate the target, causing a high amount of threat and stunning the target for 3 sec. Lasts 15 sec."
+                },
+                {
+                    "name": "Spirit Bond",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "abilities/ability_druid_demoralizingroar",
+                    "maxRank": 2,
+                    "description": "While your pet is active, you and your pet will regenerate v0% of total health every 10 sec., and increases healing done to you and your pet by v1%.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 5
+                    }
+                },
+                {
+                    "name": "Endurance Training",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "spells/spell_nature_reincarnation",
+                    "maxRank": 5,
+                    "description": "Increases the health of your pet by v0% and your total health by v1%.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Bestial Discipline",
+                    "x": 4,
+                    "y": 5,
+                    "bgURL": "spells/spell_nature_abolishmagic",
+                    "maxRank": 2,
+                    "description": "Increases the Focus regeneration of your pets by v0%.",
+                    "values": {
+                        "v0": 50
+                    }
+                },
+                {
+                    "name": "Ferocity",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "items/inv_misc_monsterclaw_04",
+                    "maxRank": 5,
+                    "description": "Increases the critical strike chance of your pet by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Thick Hide",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "trade/inv_misc_pelt_bear_03",
+                    "maxRank": 3,
+                    "description": "Increases the armor rating of your pets by v0% and your armor contribution from items by v1%.",
+                    "values": {
+                        "v0": [
+                            7,
+                            14,
+                            20
+                        ],
+                        "v1": [
+                            4,
+                            7,
+                            10
+                        ]
+                    }
+                },
+                {
+                    "name": "Unleashed Fury",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "abilities/ability_bullrush",
+                    "maxRank": 5,
+                    "description": "Increases the damage done by your pets by v0%.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Frenzy",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "items/inv_misc_monsterclaw_03",
+                    "maxRank": 5,
+                    "description": "Gives your pet a v0% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+                    "values": {
+                        "v0": 20
+                    },
+                    "dependencyName": "Ferocity"
+                },
+                {
+                    "name": "Focused Fire",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "abilities/ability_hunter_silenthunter",
+                    "maxRank": 2,
+                    "description": "All damage caused by you is increased by v0% while your pet is active and the critical strike chance of your pet's special abilities is increased by v1% while Kill Command is active.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Improved Revive Pet",
+                    "x": 4,
+                    "y": 2,
+                    "bgURL": "abilities/ability_hunter_beastsoothe",
+                    "maxRank": 2,
+                    "description": "Revive Pet's casting time is reduced by v0 sec, mana cost is reduced by v1%, and increases the health your pet returns with by an additional v2%.",
+                    "values": {
+                        "v0": 3,
+                        "v1": 20,
+                        "v2": 15
+                    }
+                },
+                {
+                    "name": "Animal Handler",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "abilities/ability_hunter_animalhandler",
+                    "maxRank": 2,
+                    "description": "Increases your pet's attack power by v0%, and increases the duration of your Master's Call effect by v1 sec.",
+                    "values": {
+                        "v0": 5,
+                        "v1": 3
+                    }
+                },
+                {
+                    "name": "Ferocious Inspiration",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "abilities/ability_hunter_ferociousinspiration",
+                    "maxRank": 3,
+                    "description": "All party and raid members have all damage increased by v0% within 100 yards of your pet. In addition, increases the damage dealt by Arcane Shot and Steady Shot by v1%.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 3
+                    }
+                },
+                {
+                    "name": "Catlike Reflexes",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "abilities/ability_hunter_catlikereflexes",
+                    "maxRank": 3,
+                    "description": "Increases your chance to dodge by v0% and your pet's chance to dodge by an additional v1%. In addition, reduces the cooldown of your Kill Command ability by v2 sec.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 3,
+                        "v2": 10
+                    }
+                },
+                {
+                    "name": "Serpent's Swiftness",
+                    "x": 3,
+                    "y": 8,
+                    "bgURL": "abilities/ability_hunter_serpentswiftness",
+                    "maxRank": 5,
+                    "description": "Increases ranged combat attack speed by v0% and your pet's melee attack speed by v1%.",
+                    "values": {
+                        "v0": 4,
+                        "v1": 4
+                    }
+                },
+                {
+                    "name": "The Beast Within",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "abilities/ability_hunter_beastwithin",
+                    "maxRank": 1,
+                    "description": "Increases all damage you deal by 10% and while your pet is under the effects of Bestial Wrath, you also go into a rage causing 10% additional damage and reducing mana costs of all spells by 50% for 10 sec.  While enraged, you do not feel pity or remorse or fear and you cannot be stopped unless killed.",
+                    "dependencyName": "Bestial Wrath"
+                },
+                {
+                    "name": "Invigoration",
+                    "x": 1,
+                    "y": 8,
+                    "bgURL": "abilities/ability_hunter_invigoration",
+                    "maxRank": 2,
+                    "description": "When your pet scores a critical hit with a special ability, you have a v0% chance to instantly regenerate 1% mana.",
+                    "values": {
+                        "v0": 50
+                    },
+                    "dependencyName": "Ferocious Inspiration"
+                },
+                {
+                    "name": "Cobra Strikes",
+                    "x": 3,
+                    "y": 9,
+                    "bgURL": "abilities/ability_hunter_cobrastrikes",
+                    "maxRank": 3,
+                    "description": "You have a v0% chance when you critically hit with Arcane Shot, Steady Shot or Kill Shot to cause your pet's next 2 special attacks to critically hit.",
+                    "values": {
+                        "v0": 20
+                    },
+                    "dependencyName": "Serpent's Swiftness"
+                },
+                {
+                    "name": "Aspect Mastery",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "abilities/ability_hunter_aspectmastery",
+                    "maxRank": 1,
+                    "description": [
+                        "Aspect of the Viper - Reduces the damage penalty by 10%.",
+                        "Aspect of the Monkey - Reduces the damage done to you while active by 5%.",
+                        "Aspect of the Hawk - Increases the attack power bonus by 30%.",
+                        "Aspect of the Dragonhawk - Combines the bonuses from Aspect of the Monkey and Hawk."
+                    ]
+                },
+                {
+                    "name": "Beast Mastery",
+                    "x": 2,
+                    "y": 11,
+                    "bgURL": "abilities/ability_hunter_beastmastery",
+                    "maxRank": 1,
+                    "description": "You master the art of Beast training, teaching you the ability to tame Exotic pets and increasing your total amount of Pet Skill Points by 4."
+                },
+                {
+                    "name": "Longevity",
+                    "x": 1,
+                    "y": 9,
+                    "bgURL": "abilities/ability_hunter_longevity",
+                    "maxRank": 3,
+                    "description": "Reduces the cooldown of your Bestial Wrath, Intimidation and Pet Special Abilities by v0%.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Kindred Spirits",
+                    "x": 2,
+                    "y": 10,
+                    "bgURL": "abilities/ability_hunter_separationanxiety",
+                    "maxRank": 5,
+                    "description": "Increases your pet's damage by v0% and you and your pet's movement speed by v1% while your pet is active. This does not stack with other movement speed increasing effects.",
+                    "values": {
+                        "v0": 4,
+                        "v1": 2
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Marksmanship",
+            "bgURL": "hunter-marksmanship-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Improved Concussive Shot",
+                    "x": 1,
+                    "y": 1,
+                    "bgURL": "spells/spell_frost_stun",
+                    "maxRank": 2,
+                    "description": "Increases the duration of your Concussive Shot's daze effect by v0 sec.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Efficiency",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "spells/spell_frost_wizardmark",
+                    "maxRank": 5,
+                    "description": "Reduces the Mana cost of your Shots and Stings by v0%.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Improved Hunter's Mark",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "abilities/ability_hunter_snipershot",
+                    "maxRank": 3,
+                    "description": "Increases the bonus attack power granted by your Hunter's Mark ability by v0%, and reduces the mana cost of your Hunter's Mark ability by v1%.",
+                    "values": {
+                        "v0": 10,
+                        "v1": [
+                            33,
+                            66,
+                            100
+                        ]
+                    }
+                },
+                {
+                    "name": "Lethal Shots",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "abilities/ability_searingarrow",
+                    "maxRank": 5,
+                    "description": "Increases your critical strike chance with ranged weapons by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Aimed Shot",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "weapons/inv_spear_07",
+                    "maxRank": 1,
+                    "description": "An aimed shot that increases ranged damage by 5 and reduces healing done to that target by 50%.  Lasts 10 sec.",
+                    "dependencyName": "Mortal Shots"
+                },
+                {
+                    "name": "Improved Arcane Shot",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "abilities/ability_impalingbolt",
+                    "maxRank": 3,
+                    "description": "Increases the damage done by your Arcane Shot by v0%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Barrage",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "abilities/ability_upgrademoonglaive",
+                    "maxRank": 3,
+                    "description": "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley spells by v0%.",
+                    "values": {
+                        "v0": 4
+                    }
+                },
+                {
+                    "name": "Improved Stings",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "abilities/ability_hunter_quickshot",
+                    "maxRank": 3,
+                    "description": "Increases the damage done by your Serpent Sting and Wyvern Sting by v0% and the mana drained by your Viper Sting by v1%.  In addition, reduces the chance your Sting damage over time effects will be dispelled by v2%.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 10,
+                        "v2": 10
+                    }
+                },
+                {
+                    "name": "Mortal Shots",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "abilities/ability_piercedamage",
+                    "maxRank": 5,
+                    "description": "Increases the critical strike damage bonus of your ranged abilities by v0%.",
+                    "values": {
+                        "v0": 6
+                    }
+                },
+                {
+                    "name": "Concussive Barrage",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "spells/spell_arcane_starfire",
+                    "maxRank": 2,
+                    "description": "Your successful Chimera Shot and Multi-Shot attacks have a v0% chance to Daze the target for 4 sec.",
+                    "values": {
+                        "v0": 50
+                    }
+                },
+                {
+                    "name": "Readiness",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "abilities/ability_hunter_readiness",
+                    "maxRank": 1,
+                    "description": "When activated, this ability immediately finishes the cooldown on your other Hunter abilities except Bestial Wrath."
+                },
+                {
+                    "name": "Trueshot Aura",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "abilities/ability_trueshot",
+                    "maxRank": 1,
+                    "description": "Increases the attack power of party and raid members within 100 yards by 10%.  Lasts until cancelled.",
+                    "dependencyName": "Readiness"
+                },
+                {
+                    "name": "Ranged Weapon Specialization",
+                    "x": 4,
+                    "y": 6,
+                    "bgURL": "weapons/inv_weapon_rifle_06",
+                    "maxRank": 3,
+                    "description": "Increases the damage you deal with ranged weapons by v0%.",
+                    "values": {
+                        "v0": [
+                            1,
+                            3,
+                            5
+                        ]
+                    }
+                },
+                {
+                    "name": "Combat Experience",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "abilities/ability_hunter_combatexperience",
+                    "maxRank": 2,
+                    "description": "Increases your total Agility and Intellect by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Careful Aim",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "abilities/ability_hunter_zenarchery",
+                    "maxRank": 3,
+                    "description": "Increases your ranged attack power by an amount equal to v0% of your total Intellect.",
+                    "values": {
+                        "v0": [
+                            33,
+                            66,
+                            100
+                        ]
+                    }
+                },
+                {
+                    "name": "Master Marksman",
+                    "x": 2,
+                    "y": 8,
+                    "bgURL": "abilities/ability_hunter_mastermarksman",
+                    "maxRank": 5,
+                    "description": "Increases your critical strike chance by v0%, and reduces the Mana cost of your Steady Shot, Aimed Shot, and Chimera Shot by v1%.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 5
+                    }
+                },
+                {
+                    "name": "Silencing Shot",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "abilities/ability_theblackarrow",
+                    "maxRank": 1,
+                    "description": "A shot that deals 50% weapon damage and Silences the target for 3 sec.  Non-player victim spellcasting is also interrupted for 3 sec.",
+                    "dependencyName": "Master Marksman"
+                },
+                {
+                    "name": "Go for the Throat",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "abilities/ability_hunter_goforthethroat",
+                    "maxRank": 2,
+                    "description": "Your ranged critical hits cause your pet to generate v0 Focus.",
+                    "values": {
+                        "v0": 25
+                    }
+                },
+                {
+                    "name": "Rapid Killing",
+                    "x": 4,
+                    "y": 3,
+                    "bgURL": "abilities/ability_hunter_rapidkilling",
+                    "maxRank": 2,
+                    "description": "Reduces the cooldown of your Rapid Fire ability by v0 min.  In addition, after killing an opponent that yields experience or honor, your next Aimed Shot, Arcane Shot or Chimera Shot causes v1% additional damage.  Lasts 20 sec.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Improved Barrage",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "abilities/ability_upgrademoonglaive",
+                    "maxRank": 3,
+                    "description": "Increases the critical strike chance of your Multi-Shot and Aimed Shot abilities by v0% and reduces the pushback suffered from damaging attacks while channeling Volley by v1%.",
+                    "values": {
+                        "v0": 4,
+                        "v1": [
+                            33,
+                            66,
+                            100
+                        ]
+                    },
+                    "dependencyName": "Barrage"
+                },
+                {
+                    "name": "Piercing Shots",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "abilities/ability_hunter_piercingshots",
+                    "maxRank": 3,
+                    "description": "Your critical Aimed, Steady and Chimera Shots cause the target to bleed for v0% of the damage dealt over 8 sec.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Rapid Recuperation",
+                    "x": 3,
+                    "y": 8,
+                    "bgURL": "abilities/ability_hunter_rapidregeneration",
+                    "maxRank": 2,
+                    "description": "You gain v0% of your mana every 3 sec while under the effect of Rapid Fire, and you gain v1% of your mana every 2 sec for 6 sec when you gain Rapid Killing.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Wild Quiver",
+                    "x": 1,
+                    "y": 9,
+                    "bgURL": "abilities/ability_hunter_wildquiver",
+                    "maxRank": 3,
+                    "description": "You have a v0% chance to shoot an additional shot when doing damage with your auto shot, dealing 80% weapon nature damage. Wild Quiver consumes no ammo.",
+                    "values": {
+                        "v0": 4
+                    }
+                },
+                {
+                    "name": "Improved Steady Shot",
+                    "x": 3,
+                    "y": 9,
+                    "bgURL": "abilities/ability_hunter_improvedsteadyshot",
+                    "maxRank": 3,
+                    "description": "Your Steady Shot hits have a v0% chance to increase the damage done by your next Aimed Shot, Arcane Shot or Chimera Shot by 15%, and reduce the mana cost of your next Aimed Shot, Arcane Shot or Chimera Shot by 20%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Marked for Death",
+                    "x": 2,
+                    "y": 10,
+                    "bgURL": "abilities/ability_hunter_assassinate",
+                    "maxRank": 5,
+                    "description": "Increases your damage done by your shots and the damage done by your pet's special abilities by v0% on marked targets, and increases the critical strike damage bonus of your Aimed Shot, Arcane Shot, Steady Shot, Kill Shot and Chimera Shot by v1%.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Chimera Shot",
+                    "x": 2,
+                    "y": 11,
+                    "bgURL": "abilities/ability_hunter_chimerashot2",
+                    "maxRank": 1,
+                    "description": "You deal 125% weapon damage, refreshing the current Sting on your target and triggering an effect:\n\nSerpent Sting - Instantly deals 40% of the damage done by your Serpent Sting.\n\nViper Sting - Instantly restores mana to you equal to 60% of the total amount drained by your Viper Sting.\n\nScorpid Sting - Attempts to Disarm the target for 10 sec. This effect cannot occur more than once per 1 minute."
+                },
+                {
+                    "name": "Focused Aim",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "abilities/ability_hunter_focusedaim",
+                    "maxRank": 3,
+                    "description": "Reduces the pushback suffered from damaging attacks while casting Steady Shot by v0%, and increases your chance to hit by v1%.",
+                    "values": {
+                        "v0": [
+                            23,
+                            46,
+                            70
+                        ],
+                        "v1": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Survival",
+            "bgURL": "hunter-survival-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Lightning Reflexes",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "spells/spell_nature_invisibilty",
+                    "maxRank": 5,
+                    "description": "Increases your Agility by v0%.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Entrapment",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "spells/spell_nature_stranglevines",
+                    "maxRank": 3,
+                    "description": "When your Frost Trap or Snake Trap are triggered you entrap all afflicted targets, preventing them from moving for v0 sec.",
+                    "values": {
+                        "v0": [
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                },
+                {
+                    "name": "Trap Mastery",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "abilities/ability_ensnare",
+                    "maxRank": 3,
+                    "description": "Frost Trap and Freezing Trap - Increases the duration by v0%.\n\nImmolation Trap, Explosive Trap and Black Arrow - Increases the periodic damage done by v1%.\n\nSnake Trap - Increases the number of snakes summoned by v2.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 10,
+                        "v2": 2
+                    }
+                },
+                {
+                    "name": "Lock and Load",
+                    "x": 4,
+                    "y": 4,
+                    "bgURL": "abilities/ability_hunter_lockandload",
+                    "maxRank": 3,
+                    "description": "You have a v0% chance when you trap a target with Freezing Trap, Freezing Arrow or Frost Trap and a v1% chance when you deal periodic damage with your Immolation Trap, Explosive Trap or Black Arrow to cause your next 2 Arcane Shot or Explosive Shot spells to trigger no cooldown, cost no mana and consume no ammo. This effect has a 22 sec cooldown.",
+                    "values": {
+                        "v0": [
+                            33,
+                            66,
+                            100
+                        ],
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Survival Tactics",
+                    "x": 4,
+                    "y": 3,
+                    "bgURL": "abilities/ability_rogue_feigndeath",
+                    "maxRank": 2,
+                    "description": "Reduces the chance your Feign Death ability and all trap spells will be resisted by v0%, and reduces the cooldown of your Disengage ability by v1 sec.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Surefooted",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "abilities/ability_kick",
+                    "maxRank": 3,
+                    "description": "Reduces the duration of movement impairing effects by v0%.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Deflection",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "abilities/ability_parry",
+                    "maxRank": 3,
+                    "description": "Increases your chance to parry by v0%, and reduces the duration of all Disarm effects used against you by v1%.  This does not stack with other Disarm duration reducing effects.",
+                    "values": {
+                        "v0": 1,
+                        "v1": [
+                            16,
+                            25,
+                            50
+                        ]
+                    }
+                },
+                {
+                    "name": "Counterattack",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "abilities/ability_warrior_challange",
+                    "maxRank": 1,
+                    "description": "A strike that becomes active after parrying an opponent's attack.  This attack deals AP*0.2+48 damage and immobilizes the target for 5 sec.  Counterattack cannot be blocked, dodged, or parried.",
+                    "dependencyName": "Deflection"
+                },
+                {
+                    "name": "Killer Instinct",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "spells/spell_holy_blessingofstamina",
+                    "maxRank": 3,
+                    "description": "Increases your critical strike chance with all attacks by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Black Arrow",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "spells/spell_shadow_painspike",
+                    "maxRank": 1,
+                    "description": "Fires a Black Arrow at the target, increasing all damage done by you to the target by 6% and dealing RAP*0.1+157*5 Shadow damage over 15 sec. Black Arrow shares a cooldown with Trap spells."
+                },
+                {
+                    "name": "Wyvern Sting",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "weapons/inv_spear_02",
+                    "maxRank": 1,
+                    "description": "A stinging shot that puts the target to sleep for 30 sec.  Any damage will cancel the effect.  When the target wakes up, the Sting causes 300 Nature damage over 6 sec.  Only one Sting per Hunter can be active on the target at a time.",
+                    "dependencyName": "Killer Instinct"
+                },
+                {
+                    "name": "Savage Strikes",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "abilities/ability_racial_bloodrage",
+                    "maxRank": 2,
+                    "description": "Increases the critical strike chance of Raptor Strike, Mongoose Bite and Counterattack by v0%.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Survivalist",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_shadow_twilight",
+                    "maxRank": 5,
+                    "description": "Increases your Stamina by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Improved Tracking",
+                    "x": 1,
+                    "y": 1,
+                    "bgURL": "abilities/ability_hunter_improvedtracking",
+                    "maxRank": 5,
+                    "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids and Undead, all damage done to those types by the Hunter is increased by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Resourcefulness",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "abilities/ability_hunter_resourcefulness",
+                    "maxRank": 3,
+                    "description": "Reduces the mana cost of all traps, melee abilities and Black Arrow by v0% and reduces the cooldown of all traps and Black Arrow by v1 sec.",
+                    "values": {
+                        "v0": 20,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Survival Instincts",
+                    "x": 4,
+                    "y": 2,
+                    "bgURL": "abilities/ability_hunter_survivalinstincts",
+                    "maxRank": 2,
+                    "description": "Reduces all damage taken by v0% and increases the critical strike chance of your Arcane Shot, Steady Shot, and Explosive Shot by v1%.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Thrill of the Hunt",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "abilities/ability_hunter_thrillofthehunt",
+                    "maxRank": 3,
+                    "description": "Gives you a v0% chance to regain 40% of the mana cost of any shot when it critically hits.",
+                    "values": {
+                        "v0": [
+                            33,
+                            66,
+                            100
+                        ]
+                    }
+                },
+                {
+                    "name": "Expose Weakness",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "abilities/ability_rogue_findweakness",
+                    "maxRank": 3,
+                    "description": "Your ranged criticals have a v0% chance to grant you Expose Weakness. Expose Weakness increases your attack power by 25% of your Agility for 7 sec.",
+                    "values": {
+                        "v0": [
+                            33,
+                            66,
+                            100
+                        ]
+                    },
+                    "dependencyName": "Lightning Reflexes"
+                },
+                {
+                    "name": "Master Tactician",
+                    "x": 1,
+                    "y": 8,
+                    "bgURL": "abilities/ability_hunter_mastertactician",
+                    "maxRank": 5,
+                    "description": "Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by v0% for 8 sec.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Scatter Shot",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "abilities/ability_golemstormbolt",
+                    "maxRank": 1,
+                    "description": "A short-range shot that deals 50% weapon damage and disorients the target for 4 sec.  Any damage caused will remove the effect.  Turns off your attack when used."
+                },
+                {
+                    "name": "Hawk Eye",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "abilities/ability_townwatch",
+                    "maxRank": 3,
+                    "description": "Increases the range of your ranged weapons by v0 yards.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Noxious Stings",
+                    "x": 2,
+                    "y": 8,
+                    "bgURL": "abilities/ability_hunter_potentvenom",
+                    "maxRank": 3,
+                    "description": "If Wyvern Sting is dispelled, the dispeller is also afflicted by Wyvern Sting lasting v0% of the duration remaining, and increases all damage done by you on targets afflicted by your Serpent Sting by v1%.",
+                    "values": {
+                        "v0": [
+                            16,
+                            25,
+                            50
+                        ],
+                        "v1": 1
+                    },
+                    "dependencyName": "Wyvern Sting"
+                },
+                {
+                    "name": "Point of No Escape",
+                    "x": 1,
+                    "y": 9,
+                    "bgURL": "abilities/ability_hunter_pointofnoescape",
+                    "maxRank": 2,
+                    "description": "Increases the critical strike chance of all of your attacks on targets affected by your Frost Trap, Freezing Trap and Freezing Arrow by v0%.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Sniper Training",
+                    "x": 4,
+                    "y": 9,
+                    "bgURL": "abilities/ability_hunter_longshots",
+                    "maxRank": 3,
+                    "description": "Increases the critical strike chance of your Kill Shot ability by v0%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by v1% for 15 sec.",
+                    "values": {
+                        "v0": 5,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Hunting Party",
+                    "x": 3,
+                    "y": 10,
+                    "bgURL": "abilities/ability_hunter_huntingparty",
+                    "maxRank": 3,
+                    "description": "Increases your total Agility by an additional v0%, and your Arcane Shot, Explosive Shot and Steady Shot critical strikes have a v1% chance to grant up to 10 party or raid members mana regeneration equal to 1% of the maximum mana per 5 sec. Lasts for 15 sec.",
+                    "values": {
+                        "v0": 1,
+                        "v1": [
+                            33,
+                            66,
+                            100
+                        ]
+                    },
+                    "dependencyName": "Thrill of the Hunt"
+                },
+                {
+                    "name": "Explosive Shot",
+                    "x": 2,
+                    "y": 11,
+                    "bgURL": "abilities/ability_hunter_explosiveshot",
+                    "maxRank": 1,
+                    "description": "You fire an explosive charge into the enemy target, dealing RAP*0.14+144-RAP*0.14+172 Fire damage. The charge will blast the target every second for an additional 2 sec.",
+                    "dependencyName": "Black Arrow"
+                },
+                {
+                    "name": "Hunter vs. Wild",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "abilities/ability_hunter_huntervswild",
+                    "maxRank": 3,
+                    "description": "Increases you and your pet's attack power and ranged attack power equal to v0% of your total Stamina.",
+                    "values": {
+                        "v0": 10
+                    },
+                    "dependencyName": "Survivalist"
+                },
+                {
+                    "name": "T.N.T.",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "items/inv_misc_bomb_05",
+                    "maxRank": 3,
+                    "description": "Increases the damage done by your Explosive Shot,  Explosive Trap, Black Arrow and Immolation Trap by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "glyphs": {
+        "major": [
+            {
+                "bgURL": "abilities/ability_hunter_assassinate",
+                "level": 71,
+                "name": "Glyph of Kill Shot",
+                "description": "Reduces the cooldown of Kill Shot by 6 sec."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_snaketrap",
+                "level": 68,
+                "name": "Glyph of Snake Trap",
+                "description": "Snakes from your Snake Trap take 90% reduced damage from area of effect spells."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_improvedsteadyshot",
+                "level": 62,
+                "name": "Glyph of Steady Shot",
+                "description": "Increases the damage dealt by Steady Shot by 10% when your target is afflicted with Serpent Sting."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_explosiveshot",
+                "level": 60,
+                "name": "Glyph of Explosive Shot",
+                "description": "Increases the critical strike chance of Explosive Shot by 4%."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_chimerashot2",
+                "level": 60,
+                "name": "Glyph of Chimera Shot",
+                "description": "Reduces the cooldown of Chimera Shot by 1 sec."
+            },
+            {
+                "bgURL": "abilities/ability_druid_ferociousbite",
+                "level": 40,
+                "name": "Glyph of Bestial Wrath",
+                "description": "Decreases the cooldown of Bestial Wrath by 20 sec."
+            },
+            {
+                "bgURL": "abilities/ability_trueshot",
+                "level": 40,
+                "name": "Glyph of Trueshot Aura",
+                "description": "While your Trueshot Aura is active, you have 10% increased critical strike chance on your Aimed Shot."
+            },
+            {
+                "bgURL": "weapons/inv_spear_02",
+                "level": 40,
+                "name": "Glyph of Wyvern Sting",
+                "description": "Decreases the cooldown of your Wyvern Sting by 6 sec."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_marksmanship",
+                "level": 40,
+                "name": "Glyph of Volley",
+                "description": "Decreases the mana cost of Volley by 20%."
+            },
+            {
+                "bgURL": "spells/spell_fire_selfdestruct",
+                "level": 34,
+                "name": "Glyph of Explosive Trap",
+                "description": "The periodic damage from your Explosive Trap can now be critical strikes."
+            },
+            {
+                "bgURL": "abilities/ability_mount_pinktiger",
+                "level": 30,
+                "name": "Glyph of the Beast",
+                "description": "Increases the attack power bonus of Aspect of the Beast for you and your pet by an additional 2%."
+            },
+            {
+                "bgURL": "spells/spell_frost_freezingbreath",
+                "level": 28,
+                "name": "Glyph of Frost Trap",
+                "description": "Increases the radius of the effect from your Frost Trap by 2 yards."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_runningshot",
+                "level": 26,
+                "name": "Glyph of Rapid Fire",
+                "description": "Increases the haste from Rapid Fire by an additional 8%."
+            },
+            {
+                "bgURL": "abilities/ability_golemstormbolt",
+                "level": 20,
+                "name": "Glyph of Scatter Shot",
+                "description": "Increases the range of Scatter Shot by 3 yards."
+            },
+            {
+                "bgURL": "weapons/inv_spear_07",
+                "level": 20,
+                "name": "Glyph of Aimed Shot",
+                "description": "Reduces the cooldown of your Aimed Shot ability by 2 sec."
+            },
+            {
+                "bgURL": "abilities/ability_rogue_feint",
+                "level": 20,
+                "name": "Glyph of Disengage",
+                "description": "Decreases the cooldown of Disengage by 5 sec."
+            },
+            {
+                "bgURL": "abilities/ability_warrior_bladestorm",
+                "level": 20,
+                "name": "Glyph of Deterrence",
+                "description": "Decreases the cooldown of Deterrence by 10 sec."
+            },
+            {
+                "bgURL": "spells/spell_frost_chainsofice",
+                "level": 20,
+                "name": "Glyph of Freezing Trap",
+                "description": "When your Freezing Trap breaks, the victim's movement speed is reduced by 30% for 4 sec."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_aspectoftheviper",
+                "level": 20,
+                "name": "Glyph of Aspect of the Viper",
+                "description": "Increases the amount of mana gained from attacks while Aspect of the Viper is active by 10%."
+            },
+            {
+                "bgURL": "abilities/ability_upgrademoonglaive",
+                "level": 18,
+                "name": "Glyph of Multi-Shot",
+                "description": "Decreases the cooldown of Multi-Shot by 1 sec."
+            },
+            {
+                "bgURL": "spells/spell_fire_flameshock",
+                "level": 16,
+                "name": "Glyph of Immolation Trap",
+                "description": "Decreases the duration of the effect from your Immolation Trap by 6 sec., but damage while active is increased by 100%."
+            },
+            {
+                "bgURL": "abilities/ability_meleedamage",
+                "level": 15,
+                "name": "Glyph of Raptor Strike",
+                "description": "Reduces damage taken by 20% for 3 sec after using Raptor Strike."
+            },
+            {
+                "bgURL": "spells/spell_nature_ravenform",
+                "level": 15,
+                "name": "Glyph of the Hawk",
+                "description": "Increases the haste bonus of the Improved Aspect of the Hawk effect by an additional 6%."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_snipershot",
+                "level": 15,
+                "name": "Glyph of Hunter's Mark",
+                "description": "Increases the attack power bonus of your Hunter's Mark by 20%."
+            },
+            {
+                "bgURL": "abilities/ability_impalingbolt",
+                "level": 15,
+                "name": "Glyph of Arcane Shot",
+                "description": "Your Arcane Shot refunds 20% of its mana cost if the target has one of your Stings active on it."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_quickshot",
+                "level": 15,
+                "name": "Glyph of Serpent Sting",
+                "description": "Increases the duration of your Serpent Sting by 6 sec."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_mendpet",
+                "level": 15,
+                "name": "Glyph of Mending",
+                "description": "Increases the healing done by your Mend Pet ability by 40%."
+            }
+        ],
+        "minor": [
+            {
+                "bgURL": "abilities/ability_mount_jungletiger",
+                "level": 40,
+                "name": "Glyph of the Pack",
+                "description": "Increases the range of your Aspect of the Pack ability by 15 yards."
+            },
+            {
+                "bgURL": "abilities/ability_rogue_feigndeath",
+                "level": 30,
+                "name": "Glyph of Feign Death",
+                "description": "Reduces the cooldown of your Feign Death spell by 5 sec."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_beastsoothe",
+                "level": 15,
+                "name": "Glyph of Revive Pet",
+                "description": "Reduces the pushback suffered from damaging attacks while casting Revive Pet by 100%."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_eyeoftheowl",
+                "level": 15,
+                "name": "Glyph of Possessed Strength",
+                "description": "Increases the damage your pet inflicts while using Eyes of the Beast by 50%."
+            },
+            {
+                "bgURL": "abilities/ability_druid_cower",
+                "level": 15,
+                "name": "Glyph of Scare Beast",
+                "description": "Reduces the pushback suffered from damaging attacks while casting Scare Beast by 75%."
+            },
+            {
+                "bgURL": "abilities/ability_hunter_mendpet",
+                "level": 15,
+                "name": "Glyph of Mend Pet",
+                "description": "Your Mend Pet spell increases your pet's happiness slightly."
+            }
+        ]
+    }
+}

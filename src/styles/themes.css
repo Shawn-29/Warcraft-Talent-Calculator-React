@@ -1,0 +1,19 @@
+/*
+=============== 
+#Light Theme
+===============
+*/
+.light-theme {
+    background-color: var(--clr-white);
+    color: var(--clr-black);
+}
+
+/*
+=============== 
+#Dark Theme
+===============
+*/
+.dark-theme {
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+}

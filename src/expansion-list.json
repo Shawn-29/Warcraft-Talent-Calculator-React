@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "img": "logo-classic",
+        "maxPoints": 51,
+        "name": "classic",
+        "styleTheme": "theme-classic"
+    },
+    {
+        "id": 1,
+        "img": "logo-tbc",
+        "maxPoints": 61,
+        "name": "the burning crusade",
+        "styleTheme": "theme-tbc"
+    },
+    {
+        "id": 2,
+        "img": "logo-wotlk",
+        "maxPoints": 71,
+        "name": "wrath of the lich king",
+        "styleTheme": "theme-wotlk"
+    }
+]

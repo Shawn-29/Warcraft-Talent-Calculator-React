@@ -1,0 +1,1128 @@
+{
+    "id": 8,
+    "expId": 2,
+    "name": "paladin Talents",
+    "trees": [
+        {
+            "name": "Holy",
+            "bgURL": "paladin-holy-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Spiritual Focus",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_arcane_blink",
+                    "maxRank": 5,
+                    "description": "Reduces the pushback suffered from damaging attacks while casting Flash of Light and Holy Light by v0%.",
+                    "values": {
+                        "v0": 14
+                    }
+                },
+                {
+                    "name": "Divine Favor",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "spells/spell_holy_heal",
+                    "maxRank": 1,
+                    "description": "When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance.",
+                    "dependencyName": "Illumination"
+                },
+                {
+                    "name": "Aura Mastery",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_auramastery",
+                    "maxRank": 1,
+                    "description": "Causes your Concentration Aura to make all affected targets immune to Silence and Interrupt effects and improve the effect of all other auras by 100%.  Lasts 6 sec."
+                },
+                {
+                    "name": "Improved Lay on Hands",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_layonhands",
+                    "maxRank": 2,
+                    "description": "Grants the target of your Lay on Hands spell v0% reduced physical damage taken for 15 sec.  In addition, the cooldown for your Lay on Hands spell is reduced by v1 min.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Healing Light",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "spells/spell_holy_holybolt",
+                    "maxRank": 3,
+                    "description": "Increases the amount healed by your Holy Light, Flash of Light and the effectiveness of Holy Shock spells by v0%.",
+                    "values": {
+                        "v0": 4
+                    }
+                },
+                {
+                    "name": "Improved Blessing of Wisdom",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_sealofwisdom",
+                    "maxRank": 2,
+                    "description": "Increases the effect of your Blessing of Wisdom spell by v0%.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Divine Intellect",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "spells/spell_nature_sleep",
+                    "maxRank": 5,
+                    "description": "Increases your total Intellect by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Improved Concentration Aura",
+                    "x": 1,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_mindsooth",
+                    "maxRank": 3,
+                    "description": "Increases the effect of your Concentration Aura by an additional v0% and while any Aura is active reduces the duration of any Silence or Interrupt effect used against an affected group member by v1%.  The duration reduction does not stack with any other effects.",
+                    "values": {
+                        "v0": 5,
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Illumination",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_greaterheal",
+                    "maxRank": 5,
+                    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a v0% chance to gain mana equal to 30% of the base cost of the spell.",
+                    "values": {
+                        "v0": 20
+                    }
+                },
+                {
+                    "name": "Seals of the Pure",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "abilities/ability_thunderbolt",
+                    "maxRank": 5,
+                    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by v0%.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Sanctified Light",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "spells/spell_holy_healingaura",
+                    "maxRank": 3,
+                    "description": "Increases the critical effect chance of your Holy Light and Holy Shock spells by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Holy Shock",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_holy_searinglight",
+                    "maxRank": 1,
+                    "description": "Blasts the target with Holy energy, causing 314 to 340 Holy damage to an enemy, or 481 to 519 healing to an ally.",
+                    "dependencyName": "Divine Favor"
+                },
+                {
+                    "name": "Holy Power",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "spells/spell_holy_power",
+                    "maxRank": 5,
+                    "description": "Increases the critical effect chance of your Holy spells by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Unyielding Faith",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "spells/spell_holy_unyieldingfaith",
+                    "maxRank": 2,
+                    "description": "Reduces the duration of all Fear and Disorient effects by v0%.",
+                    "values": {
+                        "v0": 15
+                    }
+                },
+                {
+                    "name": "Pure of Heart",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "spells/spell_holy_pureofheart",
+                    "maxRank": 2,
+                    "description": "Reduces the duration of Curse, Disease and Poison effects by v0%.",
+                    "values": {
+                        "v0": 15
+                    }
+                },
+                {
+                    "name": "Purifying Power",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "spells/spell_holy_purifyingpower",
+                    "maxRank": 2,
+                    "description": "Reduces the mana cost of your Cleanse, Purify and Consecration spells by v0% and reduces the cooldown of your Exorcism and Holy Wrath spells by v1%.",
+                    "values": {
+                        "v0": 5,
+                        "v1": [
+                            17,
+                            33
+                        ]
+                    }
+                },
+                {
+                    "name": "Blessed Life",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "spells/spell_holy_blessedlife",
+                    "maxRank": 3,
+                    "description": "All attacks against you have a v0% chance to cause half damage.",
+                    "values": {
+                        "v0": [
+                            4,
+                            7,
+                            10
+                        ]
+                    }
+                },
+                {
+                    "name": "Light's Grace",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "spells/spell_holy_lightsgrace",
+                    "maxRank": 3,
+                    "description": "Gives your Holy Light spell a v0% chance to reduce the cast time of your next Holy Light spell by 0.5 sec.  This effect lasts 15 sec.",
+                    "values": {
+                        "v0": [
+                            33,
+                            66,
+                            100
+                        ]
+                    }
+                },
+                {
+                    "name": "Holy Guidance",
+                    "x": 3,
+                    "y": 8,
+                    "bgURL": "spells/spell_holy_holyguidance",
+                    "maxRank": 5,
+                    "description": "Increases your spell power by v0% of your total Intellect.",
+                    "values": {
+                        "v0": 4
+                    }
+                },
+                {
+                    "name": "Divine Illumination",
+                    "x": 1,
+                    "y": 9,
+                    "bgURL": "spells/spell_holy_divineillumination",
+                    "maxRank": 1,
+                    "description": "Reduces the mana cost of all spells by 50% for 15 sec."
+                },
+                {
+                    "name": "Sacred Cleansing",
+                    "x": 1,
+                    "y": 8,
+                    "bgURL": "abilities/ability_paladin_sacredcleansing",
+                    "maxRank": 3,
+                    "description": "Your Cleanse spell has a v0% chance to increase the target's resistance to Disease, Magic and Poison by 30% for 10 sec.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Enlightened Judgements",
+                    "x": 3,
+                    "y": 10,
+                    "bgURL": "abilities/ability_paladin_enlightenedjudgements",
+                    "maxRank": 2,
+                    "description": "Increases the range of your Judgement of Light and Judgement of Wisdom spells by v0 yards and increases your chance to hit by v1%.",
+                    "values": {
+                        "v0": 15,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Beacon of Light",
+                    "x": 2,
+                    "y": 11,
+                    "bgURL": "abilities/ability_paladin_beaconoflight",
+                    "maxRank": 1,
+                    "description": "The target becomes a Beacon of Light to all members of your party or raid within a 60 yard radius.  Any heals you cast on party or raid members will also heal the Beacon for 100% of the amount healed.  Only one target can be the Beacon of Light at a time. Lasts 1 min."
+                },
+                {
+                    "name": "Infusion of Light",
+                    "x": 2,
+                    "y": 10,
+                    "bgURL": "abilities/ability_paladin_infusionoflight",
+                    "maxRank": 2,
+                    "description": "Your Holy Shock critical hits reduce the cast time of your next Flash of Light by v0 sec or increase the critical chance of your next Holy Light by v1%.  In addition, causes your Flash of Light to heal targets with Sacred Shield for an additional v2% over 12 sec.",
+                    "values": {
+                        "v0": 0.75,
+                        "v1": 10,
+                        "v2": 50
+                    },
+                    "dependencyName": "Holy Shock"
+                },
+                {
+                    "name": "Blessed Hands",
+                    "x": 4,
+                    "y": 4,
+                    "bgURL": "abilities/ability_paladin_blessedhands",
+                    "maxRank": 2,
+                    "description": "Reduces the mana cost of Hand of Freedom, Hand of Sacrifice and Hand of Salvation by v0%, increases the effectiveness of Hand of Salvation by v1% and the effectiveness of Hand of Sacrifice by an additional v2%.",
+                    "values": {
+                        "v0": 15,
+                        "v1": 50,
+                        "v2": 5
+                    }
+                },
+                {
+                    "name": "Judgements of the Pure",
+                    "x": 3,
+                    "y": 9,
+                    "bgURL": "abilities/ability_paladin_judgementofthepure",
+                    "maxRank": 5,
+                    "description": "Increases the damage done by your Seal and Judgement spells by v0%, and your Judgement spells increase your casting and melee haste by v1% for 1 min.",
+                    "values": {
+                        "v0": 5,
+                        "v1": 3
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Protection",
+            "bgURL": "paladin-protection-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Redoubt",
+                    "x": 1,
+                    "y": 8,
+                    "bgURL": "abilities/ability_defend",
+                    "maxRank": 3,
+                    "description": "Increases your block value by v0% and damaging melee and ranged attacks against you have a v1% chance to increase your chance to block by 10%.  Lasts 10 sec or 5 blocks.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Improved Devotion Aura",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_devotionaura",
+                    "maxRank": 3,
+                    "description": "Increases the armor bonus of your Devotion Aura by v0% and increases the amount healed on any target affected by any of your Auras by v1%.",
+                    "values": {
+                        "v0": [
+                            17,
+                            34,
+                            50
+                        ],
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Toughness",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_devotion",
+                    "maxRank": 5,
+                    "description": "Increases your armor value from items by v0% and reduces the duration of all movement slowing effects by v1%.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 6
+                    }
+                },
+                {
+                    "name": "Guardian's Favor",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "spells/spell_holy_sealofprotection",
+                    "maxRank": 2,
+                    "description": "Reduces the cooldown of your Hand of Protection by v0 sec and increases the duration of your Hand of Freedom by v1 sec.",
+                    "values": {
+                        "v0": [
+                            60,
+                            2
+                        ],
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Reckoning",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "spells/spell_holy_blessingofstrength",
+                    "maxRank": 5,
+                    "description": "Gives you a v0% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "One-Handed Weapon Specialization",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "weapons/inv_sword_20",
+                    "maxRank": 3,
+                    "description": "Increases all damage you deal when a one-handed melee weapon is equipped by v0%.",
+                    "values": {
+                        "v0": [
+                            4,
+                            7,
+                            10
+                        ]
+                    }
+                },
+                {
+                    "name": "Holy Shield",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_holy_blessingofprotection",
+                    "maxRank": 1,
+                    "description": "Increases chance to block by 30% for 10 sec and deals 79 Holy damage for each attack blocked while active.  Each block expends a charge.  8 charges.",
+                    "dependencyName": "Blessing of Sanctuary"
+                },
+                {
+                    "name": "Blessing of Sanctuary",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "spells/spell_nature_lightningshield",
+                    "maxRank": 1,
+                    "description": "Places a Blessing on the friendly target, reducing damage taken from all sources by 3% for 10 min and increasing strength and stamina by 10%.  In addition, when the target blocks, parries, or dodges a melee attack the target will gain 2% of maximum displayed mana.  Players may only have one Blessing on them per Paladin at any one time."
+                },
+                {
+                    "name": "Divinity",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_holy_blindingheal",
+                    "maxRank": 5,
+                    "description": "Increases all healing done by you and all healing effects on you by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Improved Righteous Fury",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_sealoffury",
+                    "maxRank": 3,
+                    "description": "While Righteous Fury is active, all damage taken is reduced by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Improved Hammer of Justice",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_sealofmight",
+                    "maxRank": 2,
+                    "description": "Decreases the cooldown of your Hammer of Justice spell by v0 sec.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Anticipation",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "spells/spell_magic_lesserinvisibilty",
+                    "maxRank": 5,
+                    "description": "Increases your chance to dodge by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Stoicism",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "spells/spell_holy_stoicism",
+                    "maxRank": 3,
+                    "description": "Reduces the duration of all Stun effects by an additional v0% and reduces the chance your helpful spells and damage over time effects will be dispelled by an additional v1%.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Sacred Duty",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "spells/spell_holy_divineintervention",
+                    "maxRank": 2,
+                    "description": "Increases your total Stamina by v0%, reduces the cooldown of your Divine Shield and Divine Protection spells by v1 sec.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 30
+                    }
+                },
+                {
+                    "name": "Ardent Defender",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "spells/spell_holy_ardentdefender",
+                    "maxRank": 3,
+                    "description": "Damage that takes you below 35% health is reduced by v0%.  In addition, attacks which would otherwise kill you cause you to be healed by up to v1% of your maximum health (amount healed based on defense).  This healing effect cannot occur more often than once every 2 min.",
+                    "values": {
+                        "v0": [
+                            7,
+                            13,
+                            20
+                        ],
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Combat Expertise",
+                    "x": 3,
+                    "y": 8,
+                    "bgURL": "spells/spell_holy_weaponmastery",
+                    "maxRank": 3,
+                    "description": "Increases your expertise by v0, total Stamina and chance to critically hit by v1%.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Avenger's Shield",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "spells/spell_holy_avengersshield",
+                    "maxRank": 1,
+                    "description": "Hurls a holy shield at the enemy, dealing 440+0.07*HolP+0.07*AP to 536+0.07*HolP+0.07*AP Holy damage, Dazing them and then jumping to additional nearby enemies.  Affects 3 total targets.  Lasts 10 sec.",
+                    "dependencyName": "Holy Shield"
+                },
+                {
+                    "name": "Divine Strength",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "abilities/ability_golemthunderclap",
+                    "maxRank": 5,
+                    "description": "Increases your total Strength by v0%.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Guarded by the Light",
+                    "x": 3,
+                    "y": 9,
+                    "bgURL": "abilities/ability_paladin_guardedbythelight",
+                    "maxRank": 2,
+                    "description": "Reduces spell damage taken by v0% and gives a v1% chance to refresh the duration of your Divine Plea when you hit an enemy.  In addition, your Divine Plea spell is v2% less likely to be dispelled.",
+                    "values": {
+                        "v0": 3,
+                        "v1": 50,
+                        "v2": 50
+                    }
+                },
+                {
+                    "name": "Touched by the Light",
+                    "x": 1,
+                    "y": 9,
+                    "bgURL": "abilities/ability_paladin_touchedbylight",
+                    "maxRank": 3,
+                    "description": "Increases your spell power by an amount equal to v0% of your Strength and increases the amount healed by your critical heals by v1%.",
+                    "values": {
+                        "v0": 20,
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Hammer of the Righteous",
+                    "x": 2,
+                    "y": 11,
+                    "bgURL": "abilities/ability_paladin_hammeroftherighteous",
+                    "maxRank": 1,
+                    "description": "Hammer the current target and up to 2 additional nearby targets, causing 4 times your main hand damage per second as Holy damage."
+                },
+                {
+                    "name": "Judgements of the Just",
+                    "x": 3,
+                    "y": 10,
+                    "bgURL": "abilities/ability_paladin_judgementsofthejust",
+                    "maxRank": 2,
+                    "description": "Reduces the cooldown of your Hammer of Justice by v0 sec, increases the duration of your Seal of Justice effect by v1 sec and your Judgement spells also reduce the melee attack speed of the target by v2%.",
+                    "values": {
+                        "v0": 5,
+                        "v1": 0.5,
+                        "v2": 10
+                    }
+                },
+                {
+                    "name": "Shield of the Templar",
+                    "x": 2,
+                    "y": 10,
+                    "bgURL": "abilities/ability_paladin_shieldofthetemplar",
+                    "maxRank": 3,
+                    "description": "Reduces all damage taken by v0% and grants your Avenger's Shield a v1% chance to silence your targets for 3 sec.",
+                    "values": {
+                        "v0": 1,
+                        "v1": [
+                            33,
+                            66,
+                            100
+                        ]
+                    },
+                    "dependencyName": "Avenger's Shield"
+                },
+                {
+                    "name": "Divine Sacrifice",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_powerwordbarrier",
+                    "maxRank": 1,
+                    "description": "30% of all damage taken by party members within 30 yards is redirected to the Paladin (up to a maximum of 40% of the Paladin's health times the number of party members).  Damage which reduces the Paladin below 20% health will break the effect.  Lasts 10 sec."
+                },
+                {
+                    "name": "Divine Guardian",
+                    "x": 1,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_powerwordbarrier",
+                    "maxRank": 2,
+                    "description": "When Divine Sacrifice is activated, your party and raid members within 30 yards take v0% reduced damage for 6 sec.  In addition, increases the duration of your Sacred Shield by v1% and the amount absorbed by v2%.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 50,
+                        "v2": 10
+                    },
+                    "dependencyName": "Divine Sacrifice"
+                },
+                {
+                    "name": "Spiritual Attunement",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "spells/spell_holy_revivechampion",
+                    "maxRank": 2,
+                    "description": "A passive ability that gives the Paladin mana when healed by other friendly targets' spells.  The amount of mana gained is equal to v0% of the amount healed.",
+                    "values": {
+                        "v0": 5
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Retribution",
+            "bgURL": "paladin-retribution-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Improved Blessing of Might",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "spells/spell_holy_fistofjustice",
+                    "maxRank": 2,
+                    "description": "Increases the attack power bonus of your Blessing of Might by v0%.",
+                    "values": {
+                        "v0": [
+                            12,
+                            25
+                        ]
+                    }
+                },
+                {
+                    "name": "Vengeance",
+                    "x": 2,
+                    "y": 6,
+                    "bgURL": "abilities/ability_racial_avatar",
+                    "maxRank": 3,
+                    "description": "Gives you a v0% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times.",
+                    "values": {
+                        "v0": 1
+                    },
+                    "dependencyName": "Conviction"
+                },
+                {
+                    "name": "Deflection",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "abilities/ability_parry",
+                    "maxRank": 5,
+                    "description": "Increases your Parry chance by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Benediction",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "spells/spell_frost_windwalkon",
+                    "maxRank": 5,
+                    "description": "Reduces the mana cost of all instant cast spells by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Two-Handed Weapon Specialization",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "weapons/inv_hammer_04",
+                    "maxRank": 3,
+                    "description": "Increases the damage you deal with two-handed melee weapons by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Conviction",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_retributionaura",
+                    "maxRank": 5,
+                    "description": "Increases your chance to get a critical strike with all spells and attacks by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Repentance",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_holy_prayerofhealing",
+                    "maxRank": 1,
+                    "description": "Puts the enemy target in a state of meditation, incapacitating them for up to 1 min, and removing the effect of Righteous Vengeance.  Any damage caused will awaken the target.  Usable against Demons, Dragonkin, Giants, Humanoids and Undead."
+                },
+                {
+                    "name": "Heart of the Crusader",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "spells/spell_holy_holysmite",
+                    "maxRank": 3,
+                    "description": "In addition to the normal effect, your Judgement spells will also increase the critical strike chance of all attacks made against that target by an additional v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Seal of Command",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "abilities/ability_warrior_innerrage",
+                    "maxRank": 1,
+                    "description": "All melee attacks deal 0.36*mw to 0.36*MW additional Holy damage.  When used with attacks or abilities that strike a single target, this additional Holy damage will strike up to 2 additional targets.  Lasts 30 min.\n\nUnleashing this Seal's energy will judge an enemy, instantly causing 0.19*mw+0.08*AP+0.13*HolP to 0.19*MW+0.08*AP+0.13*HolP Holy damage."
+                },
+                {
+                    "name": "Improved Judgements",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "spells/spell_holy_righteousfury",
+                    "maxRank": 2,
+                    "description": "Decreases the cooldown of your Judgement spells by v0 sec.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Eye for an Eye",
+                    "x": 1,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_eyeforaneye",
+                    "maxRank": 2,
+                    "description": "All criticals against you cause v0% of the damage taken to the attacker as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Vindication",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_vindication",
+                    "maxRank": 2,
+                    "description": "Gives the Paladin's damaging attacks a chance to reduce the target's attack power by v0 for 10 sec.",
+                    "values": {
+                        "v0": 23
+                    }
+                },
+                {
+                    "name": "Pursuit of Justice",
+                    "x": 4,
+                    "y": 3,
+                    "bgURL": "spells/spell_holy_persuitofjustice",
+                    "maxRank": 2,
+                    "description": "Reduces the duration of all Disarm effects by v0% and increases movement and mounted movement speed by v1%.  This does not stack with other movement speed increasing effects.",
+                    "values": {
+                        "v0": 25,
+                        "v1": [
+                            8,
+                            15
+                        ]
+                    }
+                },
+                {
+                    "name": "Crusade",
+                    "x": 4,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_crusade",
+                    "maxRank": 3,
+                    "description": "Increases all damage caused by v0% and all damage caused against Humanoids, Demons, Undead and Elementals by an additional v1%.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Sanctified Retribution",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "spells/spell_holy_mindvision",
+                    "maxRank": 1,
+                    "description": "Increases the damage caused by Retribution Aura by 50% and all damage caused by friendly targets affected by any of your Auras is increased by 3%."
+                },
+                {
+                    "name": "Divine Purpose",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "spells/spell_holy_divinepurpose",
+                    "maxRank": 2,
+                    "description": "Reduces your chance to be hit by spells and ranged attacks by v0% and gives your Hand of Freedom spell a v1% chance to remove any Stun effects on the target.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 50
+                    }
+                },
+                {
+                    "name": "Judgements of the Wise",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "abilities/ability_paladin_judgementofthewise",
+                    "maxRank": 3,
+                    "description": "Your damaging Judgement spells have a v0% chance to grant the Replenishment effect to up to 10 party or raid members mana regeneration equal to 1% of their maximum mana per 5 sec for 15 sec, and to immediately grant you 25% of your base mana.",
+                    "values": {
+                        "v0": [
+                            33,
+                            66,
+                            100
+                        ]
+                    }
+                },
+                {
+                    "name": "Fanaticism",
+                    "x": 2,
+                    "y": 8,
+                    "bgURL": "spells/spell_holy_fanaticism",
+                    "maxRank": 3,
+                    "description": "Increases the critical strike chance of all Judgements capable of a critical hit by v0% and reduces threat caused by all actions by v1% except when under the effects of Righteous Fury.",
+                    "values": {
+                        "v0": 6,
+                        "v1": 10
+                    },
+                    "dependencyName": "Repentance"
+                },
+                {
+                    "name": "Sanctity of Battle",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "spells/spell_holy_holysmite",
+                    "maxRank": 3,
+                    "description": "Increases your chance to critically hit with all spells and attacks by v0% and increases the damage caused by Exorcism and Crusader Strike by v1%.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 5
+                    }
+                },
+                {
+                    "name": "Crusader Strike",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "spells/spell_holy_crusaderstrike",
+                    "maxRank": 1,
+                    "description": "An instant strike that causes 75% weapon damage."
+                },
+                {
+                    "name": "Sanctified Wrath",
+                    "x": 3,
+                    "y": 8,
+                    "bgURL": "abilities/ability_paladin_sanctifiedwrath",
+                    "maxRank": 2,
+                    "description": "Increases the critical strike chance of Hammer of Wrath by v0%, reduces the cooldown of Avenging Wrath by v1 secs and while affected by Avenging Wrath v2% of all damage caused bypasses damage reduction effects.",
+                    "values": {
+                        "v0": 25,
+                        "v1": 30,
+                        "v2": 25
+                    }
+                },
+                {
+                    "name": "Swift Retribution",
+                    "x": 1,
+                    "y": 9,
+                    "bgURL": "abilities/ability_paladin_swiftretribution",
+                    "maxRank": 3,
+                    "description": "Your auras also increase casting, ranged and melee attack speeds by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Righteous Vengeance",
+                    "x": 2,
+                    "y": 10,
+                    "bgURL": "abilities/ability_paladin_righteousvengeance",
+                    "maxRank": 3,
+                    "description": "When your Judgement, Crusader Strike and Divine Storm spells deal a critical strike, your target will take v0% additional damage over 8 sec.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Divine Storm",
+                    "x": 2,
+                    "y": 11,
+                    "bgURL": "abilities/ability_paladin_divinestorm",
+                    "maxRank": 1,
+                    "description": "An instant weapon attack that causes 110% of weapon damage to up to 4 enemies within 8 yards.  The Divine Storm heals up to 3 party or raid members totaling 25% of the damage caused."
+                },
+                {
+                    "name": "The Art of War",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "abilities/ability_paladin_artofwar",
+                    "maxRank": 2,
+                    "description": "Increases the damage of your Judgement, Crusader Strike and Divine Storm abilities by v0% and when your melee attacks critically hit the cast time of your next Flash of Light or Exorcism is reduced by v1 sec.",
+                    "values": {
+                        "v0": 5,
+                        "v1": [
+                            0.75,
+                            null
+                        ]
+                    }
+                },
+                {
+                    "name": "Sheath of Light",
+                    "x": 3,
+                    "y": 9,
+                    "bgURL": "abilities/ability_paladin_sheathoflight",
+                    "maxRank": 3,
+                    "description": "Increases your spell power by an amount equal to v0% of your attack power and your critical healing spells heal the target for v1% of the healed amount over 12 seconds.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 20
+                    }
+                }
+            ]
+        }
+    ],
+    "glyphs": {
+        "major": [
+            {
+                "bgURL": "abilities/ability_paladin_ShieldofVengeance",
+                "level": 75,
+                "name": "Glyph of Shield of Righteousness",
+                "description": "Reduces the mana cost of Shield of Righteousness by 80%."
+            },
+            {
+                "bgURL": "spells/spell_holy_aspiration",
+                "level": 71,
+                "name": "Glyph of Divine Plea",
+                "description": "While Divine Plea is active, you take 3% reduced damage from all sources."
+            },
+            {
+                "bgURL": "spells/spell_holy_avengingwrath",
+                "level": 70,
+                "name": "Glyph of Avenging Wrath",
+                "description": "Reduces the cooldown of your Hammer of Wrath spell by 50% while Avenging Wrath is active."
+            },
+            {
+                "bgURL": "abilities/ability_paladin_beaconoflight",
+                "level": 60,
+                "name": "Glyph of Beacon of Light",
+                "description": "Increases the duration of Beacon of Light by 30 sec."
+            },
+            {
+                "bgURL": "abilities/ability_paladin_hammeroftherighteous",
+                "level": 60,
+                "name": "Glyph of Hammer of the Righteous",
+                "description": "Your Hammer of the Righteous hits 1 additional target."
+            },
+            {
+                "bgURL": "abilities/ability_paladin_divinestorm",
+                "level": 60,
+                "name": "Glyph of Divine Storm",
+                "description": "Your Divine Storm now heals for an additional 15% of the damage it causes."
+            },
+            {
+                "bgURL": "spells/spell_holy_sealofvengeance",
+                "level": 50,
+                "name": "Glyph of Seal of Vengeance",
+                "description": "Your Seal of Vengeance or Seal of Corruption also grants 10 expertise while active."
+            },
+            {
+                "bgURL": "spells/spell_holy_excorcism",
+                "level": 50,
+                "name": "Glyph of Holy Wrath",
+                "description": "Reduces the cooldown of your Holy Wrath spell by 15 sec."
+            },
+            {
+                "bgURL": "abilities/ability_thunderbolt",
+                "level": 50,
+                "name": "Glyph of Seal of Righteousness",
+                "description": "Increases the damage done by Seal of Righteousness by 10%."
+            },
+            {
+                "bgURL": "spells/spell_holy_avengersshield",
+                "level": 50,
+                "name": "Glyph of Avenger's Shield",
+                "description": "Your Avenger's Shield hits 2 fewer targets, but for 100% more damage."
+            },
+            {
+                "bgURL": "abilities/ability_golemthunderclap",
+                "level": 44,
+                "name": "Glyph of Hammer of Wrath",
+                "description": "Reduces the mana cost of Hammer of Wrath by 100%."
+            },
+            {
+                "bgURL": "spells/spell_holy_searinglight",
+                "level": 40,
+                "name": "Glyph of Holy Shock",
+                "description": "Reduces the cooldown of Holy Shock by 1 sec."
+            },
+            {
+                "bgURL": "spells/spell_holy_righteousnessaura",
+                "level": 38,
+                "name": "Glyph of Seal of Wisdom",
+                "description": "While Seal of Wisdom is active, the cost of your healing spells is reduced by 5%."
+            },
+            {
+                "bgURL": "spells/spell_holy_renew",
+                "level": 35,
+                "name": "Glyph of Cleansing",
+                "description": "Reduces the mana cost of your Cleanse and Purify spells by 20%."
+            },
+            {
+                "bgURL": "spells/spell_holy_healingaura",
+                "level": 30,
+                "name": "Glyph of Seal of Light",
+                "description": "While Seal of Light is active, the effect of your healing spells is increased by 5%."
+            },
+            {
+                "bgURL": "spells/spell_holy_sealofsalvation",
+                "level": 26,
+                "name": "Glyph of Salvation",
+                "description": "When you cast Hand of Salvation on yourself, it also reduces damage taken by 20%."
+            },
+            {
+                "bgURL": "spells/spell_holy_turnundead",
+                "level": 24,
+                "name": "Glyph of Turn Evil",
+                "description": "Reduces the casting time of your Turn Evil spell by 100%, but increases the cooldown by 8 sec."
+            },
+            {
+                "bgURL": "abilities/ability_warrior_innerrage",
+                "level": 20,
+                "name": "Glyph of Seal of Command",
+                "description": "You gain 8% of your base mana each time you use a Judgement with Seal of Command active."
+            },
+            {
+                "bgURL": "spells/spell_holy_innerfire",
+                "level": 20,
+                "name": "Glyph of Consecration",
+                "description": "Increases the duration and cooldown of Consecration by 2 sec."
+            },
+            {
+                "bgURL": "spells/spell_holy_excorcism_02",
+                "level": 20,
+                "name": "Glyph of Exorcism",
+                "description": "Increases damage done by Exorcism by 20%."
+            },
+            {
+                "bgURL": "spells/spell_holy_flashheal",
+                "level": 20,
+                "name": "Glyph of Flash of Light",
+                "description": "Your Flash of Light has an additional 5% critical strike chance."
+            },
+            {
+                "bgURL": "spells/spell_holy_crusaderstrike",
+                "level": 20,
+                "name": "Glyph of Crusader Strike",
+                "description": "Reduces the mana cost of your Crusader Strike ability by 20%."
+            },
+            {
+                "bgURL": "spells/spell_holy_revivechampion",
+                "level": 18,
+                "name": "Glyph of Spiritual Attunement",
+                "description": "Increases the amount of mana gained from your Spiritual Attunement spell by an additional 2%."
+            },
+            {
+                "bgURL": "armor/inv_shoulder_37",
+                "level": 15,
+                "name": "Glyph of Righteous Defense",
+                "description": "Increases the chance for your Righteous Defense and Hand of Reckoning abilities to work successfully by 8% on each target."
+            },
+            {
+                "bgURL": "spells/spell_holy_layonhands",
+                "level": 15,
+                "name": "Glyph of Divinity",
+                "description": "Your Lay on Hands grants twice as much mana as normal and also grants you as much mana as it grants your target."
+            },
+            {
+                "bgURL": "abilities/ability_shaman_stormstrike",
+                "level": 15,
+                "name": "Glyph of Hammer of Justice",
+                "description": "Increases your Hammer of Justice range by 5 yards."
+            },
+            {
+                "bgURL": "spells/spell_holy_righteousFury",
+                "level": 15,
+                "name": "Glyph of Judgement",
+                "description": "Your Judgements deal 10% more damage."
+            }
+        ],
+        "minor": [
+            {
+                "bgURL": "spells/spell_holy_senseundead",
+                "level": 20,
+                "name": "Glyph of Sense Undead",
+                "description": "Damage against Undead increased by 1% while your Sense Undead ability is active."
+            },
+            {
+                "bgURL": "spells/spell_magic_magearmor",
+                "level": 20,
+                "name": "Glyph of Blessing of Kings",
+                "description": "Reduces the mana cost of your Blessing of Kings and Greater Blessing of Kings spells by 50%."
+            },
+            {
+                "bgURL": "spells/spell_holy_righteousnessaura",
+                "level": 15,
+                "name": "Glyph of the Wise",
+                "description": "Reduces the mana cost of your Seal of Wisdom spell by 50%."
+            },
+            {
+                "bgURL": "spells/spell_holy_sealofwisdom",
+                "level": 15,
+                "name": "Glyph of Blessing of Wisdom",
+                "description": "Increases the duration of your Blessing of Wisdom spell by 20 min when cast on yourself."
+            },
+            {
+                "bgURL": "spells/spell_holy_layonhands",
+                "level": 15,
+                "name": "Glyph of Lay on Hands",
+                "description": "Reduces the cooldown of your Lay on Hands spell by 5 min."
+            },
+            {
+                "bgURL": "spells/spell_holy_fistofjustice",
+                "level": 15,
+                "name": "Glyph of Blessing of Might",
+                "description": "Increases the duration of your Blessing of Might spell by 20 min when cast on yourself."
+            }
+        ]
+    }
+}

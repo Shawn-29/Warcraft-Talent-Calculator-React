@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Warrior",
+        "iconOffset": 0,
+        "id": 0
+    },
+    {
+        "name": "Mage",
+        "iconOffset": 1,
+        "id": 1
+    },
+    {
+        "name": "Rogue",
+        "iconOffset": 2,
+        "id": 2
+    },
+    {
+        "name": "Druid",
+        "iconOffset": 3,
+        "id": 3
+    },
+    {
+        "name": "Hunter",
+        "iconOffset": 4,
+        "id": 4
+    },
+    {
+        "name": "Shaman",
+        "iconOffset": 5,
+        "id": 5
+    },
+    {
+        "name": "Priest",
+        "iconOffset": 6,
+        "id": 6
+    },
+    {
+        "name": "Warlock",
+        "iconOffset": 7,
+        "id": 7
+    },
+    {
+        "name": "Paladin",
+        "iconOffset": 8,
+        "id": 8
+    },
+    {
+        "name": "Death Knight",
+        "iconOffset": 9,
+        "id": 9,
+        "expIdList": [
+            2
+        ]
+    }
+]

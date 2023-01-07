@@ -1,0 +1,1243 @@
+{
+    "id": 9,
+    "expId": 2,
+    "name": "death knight talents",
+    "trees": [
+        {
+            "name": "Blood",
+            "bgURL": "death-knight-blood-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Improved Blood Presence",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "spells/spell_deathknight_bloodpresence",
+                    "maxRank": 2,
+                    "description": "While in Frost Presence or Unholy Presence, you retain v0% healing from Blood Presence, and healing done to you is increased by v1% in Blood Presence.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 5
+                    }
+                },
+                {
+                    "name": "Bladed Armor",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "armor/inv_shoulder_36",
+                    "maxRank": 5,
+                    "description": "Increases your attack power by v0 for every 180 armor value you have.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Butchery",
+                    "x": 1,
+                    "y": 1,
+                    "bgURL": "weapons/inv_axe_68",
+                    "maxRank": 2,
+                    "description": "Whenever you kill an enemy that grants experience or honor, you generate up to v0 runic power.  In addition, you generate v1 runic power per 5 sec while in combat.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Rune Tap",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_deathknight_runetap",
+                    "maxRank": 1,
+                    "description": "Converts 1 Blood Rune into 10% of your maximum health."
+                },
+                {
+                    "name": "Improved Rune Tap",
+                    "x": 1,
+                    "y": 4,
+                    "bgURL": "spells/spell_deathknight_runetap",
+                    "maxRank": 3,
+                    "description": "Increases the health provided by Rune Tap by v0% and lowers its cooldown by v1 sec.",
+                    "values": {
+                        "v0": [
+                            33,
+                            66,
+                            100
+                        ],
+                        "v1": 10
+                    },
+                    "dependencyName": "Rune Tap"
+                },
+                {
+                    "name": "Dark Conviction",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "spells/spell_deathknight_darkconviction",
+                    "maxRank": 5,
+                    "description": "Increases your chance to critically hit with weapons, spells and abilities by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Bloody Vengeance",
+                    "x": 2,
+                    "y": 6,
+                    "bgURL": "abilities/ability_backstab",
+                    "maxRank": 3,
+                    "description": "Gives you a v0% bonus to physical damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times.",
+                    "values": {
+                        "v0": 1
+                    },
+                    "dependencyName": "Dark Conviction"
+                },
+                {
+                    "name": "Subversion",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_deathknight_subversion",
+                    "maxRank": 3,
+                    "description": "Increases the critical strike chance of Blood Strike, Scourge Strike, Heart Strike and Obliterate by v0%, and reduces threat generated while in Blood or Unholy Presence by v1%.",
+                    "values": {
+                        "v0": 3,
+                        "v1": [
+                            8,
+                            16,
+                            25
+                        ]
+                    }
+                },
+                {
+                    "name": "Scent of Blood",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "abilities/ability_rogue_bloodyeye",
+                    "maxRank": 3,
+                    "description": "You have a 15% chance after dodging, parrying or taking  direct damage to gain the Scent of Blood effect, causing your next melee hit to generate v0 runic power.",
+                    "values": {
+                        "v0": [
+                            10,
+                            2,
+                            3
+                        ]
+                    }
+                },
+                {
+                    "name": "Mark of Blood",
+                    "x": 4,
+                    "y": 5,
+                    "bgURL": "abilities/ability_hunter_rapidkilling",
+                    "maxRank": 1,
+                    "description": "Place a Mark of Blood on an enemy.  Whenever the marked enemy deals damage to a target, that target is healed for 4% of its maximum health.  Lasts for 20 sec or up to 20 hits."
+                },
+                {
+                    "name": "Veteran of the Third War",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "spells/spell_misc_warsongfocus",
+                    "maxRank": 3,
+                    "description": "Increases your total Strength by v0%, your Stamina by v1%, and your expertise by v2.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 1,
+                        "v2": 2
+                    }
+                },
+                {
+                    "name": "Vendetta",
+                    "x": 4,
+                    "y": 4,
+                    "bgURL": "spells/spell_deathknight_vendetta",
+                    "maxRank": 3,
+                    "description": "Heals you for up to v0% of your maximum health whenever you kill a target that yields experience or honor.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Unholy Frenzy",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_deathknight_bladedarmor",
+                    "maxRank": 1,
+                    "description": "Induces a friendly unit into a killing frenzy for 30 sec.  The target is Enraged, which increases their physical damage by 20%, but causes them to lose health equal to 1% of their maximum health every second."
+                },
+                {
+                    "name": "Sudden Doom",
+                    "x": 2,
+                    "y": 8,
+                    "bgURL": "spells/spell_shadow_painspike",
+                    "maxRank": 3,
+                    "description": "Your Blood Strikes and Heart Strikes have a v0% chance to launch a free Death Coil at your target.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Heart Strike",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "weapons/inv_weapon_shortblade_40",
+                    "maxRank": 1,
+                    "description": "Instantly strike the target and his nearest ally, causing 50% weapon damage plus 125 on the primary target, and 25% weapon damage plus 63 on the secondary target.  Each target takes 10% additional damage for each of your diseases active on that target."
+                },
+                {
+                    "name": "Might of Mograine",
+                    "x": 3,
+                    "y": 9,
+                    "bgURL": "spells/spell_deathknight_classicon",
+                    "maxRank": 3,
+                    "description": "Increases the critical strike damage bonus of your Blood Boil, Blood Strike, Death Strike, and Heart Strike abilities by v0%.",
+                    "values": {
+                        "v0": 15
+                    }
+                },
+                {
+                    "name": "Will of the Necropolis",
+                    "x": 1,
+                    "y": 9,
+                    "bgURL": "abilities/ability_creature_cursed_02",
+                    "maxRank": 3,
+                    "description": "Damage that would take you below 3v0% health or taken while you are at 35% health is reduced by 5%.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Bloodworms",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "spells/spell_shadow_soulleech",
+                    "maxRank": 3,
+                    "description": "Your weapon hits have a v0% chance to cause the target to spawn 2-4 Bloodworms.  Bloodworms attack your enemies, healing you as they do damage for 20 sec or until killed.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Dancing Rune Weapon",
+                    "x": 2,
+                    "y": 11,
+                    "bgURL": "weapons/inv_sword_07",
+                    "maxRank": 1,
+                    "description": "Summons a second rune weapon that fights on its own for 12 sec, doing the same attacks as the Death Knight but for 50% reduced damage."
+                },
+                {
+                    "name": "Bloody Strikes",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "spells/spell_deathknight_deathstrike",
+                    "maxRank": 3,
+                    "description": "Increases the damage of Blood Strike by v0% and Heart Strike by v1%, and increases the damage of Blood Boil by v2%.",
+                    "values": {
+                        "v0": 5,
+                        "v1": 15,
+                        "v2": 10
+                    }
+                },
+                {
+                    "name": "Blade Barrier",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "abilities/ability_upgrademoonglaive",
+                    "maxRank": 5,
+                    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by v0% for the next 10 sec.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Spell Deflection",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "spells/spell_deathknight_spelldeflection",
+                    "maxRank": 3,
+                    "description": "You have a chance equal to your Parry chance of taking v0% less damage from a direct damage spell.",
+                    "values": {
+                        "v0": 15
+                    }
+                },
+                {
+                    "name": "Vampiric Blood",
+                    "x": 3,
+                    "y": 8,
+                    "bgURL": "spells/spell_shadow_lifedrain",
+                    "maxRank": 1,
+                    "description": "Temporarily grants the Death Knight 15% of maximum health and increases the amount of health generated through spells and effects by 35% for 10 sec.  After the effect expires, the health is lost."
+                },
+                {
+                    "name": "Blood Gorged",
+                    "x": 2,
+                    "y": 10,
+                    "bgURL": "spells/spell_nature_reincarnation",
+                    "maxRank": 5,
+                    "description": "When you are above 75% health, you deal v0% more damage.  In addition, your attacks ignore up to v1% of your opponent's armor at all times.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Death Rune Mastery",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "weapons/inv_sword_62",
+                    "maxRank": 3,
+                    "description": "Whenever you hit with Death Strike or Obliterate there is a v0% chance that the Frost and Unholy Runes will become Death Runes when they activate.  Death Runes count as a Blood, Frost or Unholy Rune.",
+                    "values": {
+                        "v0": [
+                            33,
+                            66,
+                            100
+                        ]
+                    }
+                },
+                {
+                    "name": "Abomination's Might",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "abilities/ability_warrior_intensifyrage",
+                    "maxRank": 2,
+                    "description": "Increases the attack power by v0% of party and raid members within v100 yards.  Also increases your total Strength by 1%.",
+                    "values": {
+                        "v0": 5,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Two-Handed Weapon Specialization",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "weapons/inv_sword_68",
+                    "maxRank": 2,
+                    "description": "Increases the damage you deal with two-handed melee weapons by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Improved Death Strike",
+                    "x": 1,
+                    "y": 8,
+                    "bgURL": "spells/spell_deathknight_butcher2",
+                    "maxRank": 2,
+                    "description": "Increases the damage of your Death Strike by v0%, increases its critical strike chance by v1%, and increases the healing granted by v2%.",
+                    "values": {
+                        "v0": 15,
+                        "v1": 3,
+                        "v2": 25
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Frost",
+            "bgURL": "death-knight-frost-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Toughness",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "spells/spell_holy_devotion",
+                    "maxRank": 5,
+                    "description": "Increases your armor value from items by v0% and reduces the duration of all movement slowing effects by v1%.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 6
+                    }
+                },
+                {
+                    "name": "Endless Winter",
+                    "x": 4,
+                    "y": 4,
+                    "bgURL": "spells/spell_shadow_twilight",
+                    "maxRank": 2,
+                    "description": "Your strength is increased by v0% and the cost of your Mind Freeze is reduced to v1 runic power.",
+                    "values": {
+                        "v0": 2,
+                        "v1": [
+                            10,
+                            null
+                        ]
+                    }
+                },
+                {
+                    "name": "Black Ice",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "spells/spell_shadow_darkritual",
+                    "maxRank": 5,
+                    "description": "Increases your Frost and Shadow damage by v0%.",
+                    "values": {
+                        "v0": 2
+                    }
+                },
+                {
+                    "name": "Frost Strike",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "spells/spell_deathknight_empowerruneblade2",
+                    "maxRank": 1,
+                    "description": "Instantly strike the enemy, causing 55% weapon damage plus 48 as Frost damage."
+                },
+                {
+                    "name": "Unbreakable Armor",
+                    "x": 3,
+                    "y": 8,
+                    "bgURL": "armor/inv_armor_helm_plate_naxxramas_raidwarrior_c_01",
+                    "maxRank": 1,
+                    "description": "Reinforces your armor with a thick coat of ice, increasing your armor by 25% and increasing your Strength by 20% for 20 sec."
+                },
+                {
+                    "name": "Deathchill",
+                    "x": 4,
+                    "y": 5,
+                    "bgURL": "spells/spell_shadow_soulleech_2",
+                    "maxRank": 1,
+                    "description": "When activated, makes your next Icy Touch, Howling Blast, Frost Strike or Obliterate a critical hit if used within 30 sec."
+                },
+                {
+                    "name": "Chill of the Grave",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "spells/spell_frost_frostshock",
+                    "maxRank": 2,
+                    "description": "Your Chains of Ice, Howling Blast, Icy Touch and Obliterate generate v0 additional runic power.",
+                    "values": {
+                        "v0": 2.5
+                    }
+                },
+                {
+                    "name": "Howling Blast",
+                    "x": 2,
+                    "y": 11,
+                    "bgURL": "spells/spell_frost_arcticwinds",
+                    "maxRank": 1,
+                    "description": "Blast the target with a frigid wind dealing 198 to 214 Frost damage to all enemies within 10 yards."
+                },
+                {
+                    "name": "Frigid Dreadplate",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "armor/inv_chest_mail_04",
+                    "maxRank": 3,
+                    "description": "Reduces the chance melee attacks will hit you by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Rime",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "spells/spell_frost_freezingbreath",
+                    "maxRank": 3,
+                    "description": "Increases the critical strike chance of your Icy Touch and Obliterate by v0% and casting Obliterate has a v1% chance to reset the cooldown on Howling Blast and cause your next Howling Blast to consume no runes.",
+                    "values": {
+                        "v0": 5,
+                        "v1": 5
+                    }
+                },
+                {
+                    "name": "Merciless Combat",
+                    "x": 2,
+                    "y": 6,
+                    "bgURL": "weapons/inv_sword_112",
+                    "maxRank": 2,
+                    "description": "Your Icy Touch, Howling Blast, Obliterate and Frost Strike do an additional v0% damage when striking targets with less than 35% health.",
+                    "values": {
+                        "v0": 6
+                    }
+                },
+                {
+                    "name": "Acclimation",
+                    "x": 1,
+                    "y": 9,
+                    "bgURL": "spells/spell_fire_elementaldevastation",
+                    "maxRank": 3,
+                    "description": "When you are hit by a spell, you have a v0% chance to boost your resistance to that type of magic for 18 sec.  Stacks up to 3 times.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Tundra Stalker",
+                    "x": 2,
+                    "y": 10,
+                    "bgURL": "spells/spell_nature_tranquility",
+                    "maxRank": 5,
+                    "description": "Your spells and abilities deal v0% more damage to targets infected with Frost Fever.  Also increases your expertise by v1.",
+                    "values": {
+                        "v0": 3,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Hungering Cold",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "weapons/inv_staff_15",
+                    "maxRank": 1,
+                    "description": "Purges the earth around the Death Knight of all heat.  Enemies within 10 yards are trapped in ice, preventing them from performing any action for 10 sec and infecting them with Frost Fever.  Enemies are considered Frozen, but any damage other than diseases will break the ice."
+                },
+                {
+                    "name": "Runic Power Mastery",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_arcane_arcane01",
+                    "maxRank": 2,
+                    "description": "Increases your maximum Runic Power by v0.",
+                    "values": {
+                        "v0": 15
+                    }
+                },
+                {
+                    "name": "Nerves of Cold Steel",
+                    "x": 4,
+                    "y": 2,
+                    "bgURL": "abilities/ability_dualwield",
+                    "maxRank": 3,
+                    "description": "Increases your chance to hit with one-handed melee weapons by v0% and increases the damage done by your offhand weapon by v1%.",
+                    "values": {
+                        "v0": 1,
+                        "v1": [
+                            8,
+                            16,
+                            25
+                        ]
+                    }
+                },
+                {
+                    "name": "Improved Frost Presence",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "spells/spell_deathknight_frostpresence",
+                    "maxRank": 2,
+                    "description": "While in Blood Presence or Unholy Presence, you retain v0% stamina from Frost Presence, and damage done to you is decreased by an additional v1% in Frost Presence.",
+                    "values": {
+                        "v0": 4,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "Glacier Rot",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "spells/spell_nature_removedisease",
+                    "maxRank": 3,
+                    "description": "Diseased enemies take v0% more damage from your Icy Touch, Howling Blast and Frost Strike.",
+                    "values": {
+                        "v0": [
+                            7,
+                            13,
+                            20
+                        ]
+                    }
+                },
+                {
+                    "name": "Improved Icy Touch",
+                    "x": 1,
+                    "y": 1,
+                    "bgURL": "spells/spell_deathknight_icetouch",
+                    "maxRank": 3,
+                    "description": "Your Icy Touch does an additional v0% damage and your Frost Fever reduces melee and ranged attack speed by an additional v1%.",
+                    "values": {
+                        "v0": 5,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Icy Reach",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "spells/spell_frost_manarecharge",
+                    "maxRank": 2,
+                    "description": "Increases the range of your Icy Touch,  Chains of Ice and Howling Blast by v0 yards.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Guile of Gorefiend",
+                    "x": 3,
+                    "y": 9,
+                    "bgURL": "weapons/inv_sword_53",
+                    "maxRank": 3,
+                    "description": "Increases the critical strike damage bonus of your Blood Strike, Frost Strike, Howling Blast and Obliterate abilities by v0%, and increases the duration of your Icebound Fortitude by v1 secs.",
+                    "values": {
+                        "v0": 15,
+                        "v1": 2
+                    }
+                },
+                {
+                    "name": "Icy Talons",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_deathknight_icytalons",
+                    "maxRank": 5,
+                    "description": "You leech heat from victims of your Frost Fever, so that when their melee attack speed is reduced, yours increases by v0% for the next 20 sec.",
+                    "values": {
+                        "v0": 4
+                    },
+                    "dependencyName": "Improved Icy Touch"
+                },
+                {
+                    "name": "Killing Machine",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "weapons/inv_sword_122",
+                    "maxRank": 5,
+                    "description": "Your melee attacks have a chance to make your next Icy Touch, Howling Blast or Frost Strike a critical strike."
+                },
+                {
+                    "name": "Annihilation",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "weapons/inv_weapon_hand_18",
+                    "maxRank": 3,
+                    "description": "Increases the critical strike chance of your melee special abilities by v0%.  In addition, there is a v1% chance that your Obliterate will do its damage without consuming diseases.",
+                    "values": {
+                        "v0": 1,
+                        "v1": [
+                            33,
+                            66,
+                            100
+                        ]
+                    }
+                },
+                {
+                    "name": "Blood of the North",
+                    "x": 2,
+                    "y": 8,
+                    "bgURL": "weapons/inv_weapon_shortblade_79",
+                    "maxRank": 3,
+                    "description": "Increases Blood Strike and Frost Strike damage by v0%.  In addition, whenever you hit with Blood Strike or Pestilence there is a v1% chance that the Blood Rune will become a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune.",
+                    "values": {
+                        "v0": [
+                            3,
+                            6,
+                            10
+                        ],
+                        "v1": [
+                            30,
+                            60,
+                            100
+                        ]
+                    }
+                },
+                {
+                    "name": "Lichborne",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "spells/spell_shadow_raisedead",
+                    "maxRank": 1,
+                    "description": "Draw upon unholy energy to become undead for 10 sec.  While undead, you are immune to Charm, Fear and Sleep effects."
+                },
+                {
+                    "name": "Improved Icy Talons",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "spells/spell_deathknight_icytalons",
+                    "maxRank": 1,
+                    "description": "Increases the melee haste of all party and raid members within 100 yds by 20% and your haste by an additional 5%.",
+                    "dependencyName": "Icy Talons"
+                },
+                {
+                    "name": "Chilblains",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "spells/spell_frost_wisp",
+                    "maxRank": 3,
+                    "description": "Victims of your Frost Fever disease are Chilled, reducing movement speed by v0% for 10 sec.",
+                    "values": {
+                        "v0": [
+                            15,
+                            30,
+                            50
+                        ]
+                    }
+                },
+                {
+                    "name": "Threat of Thassarian",
+                    "x": 1,
+                    "y": 8,
+                    "bgURL": "abilities/ability_dualwieldspecialization",
+                    "maxRank": 3,
+                    "description": "When dual-wielding, your Death Strikes, Obliterates, Plague Strikes, Rune Strikes, Blood Strikes and Frost Strikes have a v0% chance to also deal damage with your offhand weapon.",
+                    "values": {
+                        "v0": [
+                            30,
+                            60,
+                            100
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Unholy",
+            "bgURL": "death-knight-unholy-bg.jpg",
+            "talentList": [
+                {
+                    "name": "Virulence",
+                    "x": 2,
+                    "y": 1,
+                    "bgURL": "spells/spell_shadow_burningspirit",
+                    "maxRank": 3,
+                    "description": "Increases your chance to hit with your spells by v0% and reduces the chance that your damage over time diseases can be cured by v1%.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Morbidity",
+                    "x": 2,
+                    "y": 2,
+                    "bgURL": "spells/spell_shadow_deathanddecay",
+                    "maxRank": 3,
+                    "description": "Increases the damage and healing of Death Coil by v0% and reduces the cooldown on Death and Decay by v1 sec.",
+                    "values": {
+                        "v0": 5,
+                        "v1": 5
+                    }
+                },
+                {
+                    "name": "Ravenous Dead",
+                    "x": 4,
+                    "y": 2,
+                    "bgURL": "spells/spell_deathknight_gnaw_ghoul",
+                    "maxRank": 3,
+                    "description": "Increases your total Strength by v0% and the contribution your Ghouls get from your Strength and Stamina by v1%.",
+                    "values": {
+                        "v0": 1,
+                        "v1": 20
+                    }
+                },
+                {
+                    "name": "Crypt Fever",
+                    "x": 2,
+                    "y": 8,
+                    "bgURL": "spells/spell_nature_nullifydisease",
+                    "maxRank": 3,
+                    "description": "Your diseases also cause Crypt Fever, which increases disease damage taken by the target by v0%.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Epidemic",
+                    "x": 1,
+                    "y": 2,
+                    "bgURL": "spells/spell_shadow_shadowwordpain",
+                    "maxRank": 2,
+                    "description": "Increases the duration of Blood Plague and Frost Fever by v0 sec.",
+                    "values": {
+                        "v0": 3
+                    }
+                },
+                {
+                    "name": "Master of Ghouls",
+                    "x": 4,
+                    "y": 6,
+                    "bgURL": "spells/spell_shadow_animatedead",
+                    "maxRank": 1,
+                    "description": "Reduces the cooldown on Raise Dead by 60 sec, and the Ghoul summoned by your Raise Dead spell is considered a pet under your control.  Unlike normal Death Knight Ghouls, your pet does not have a limited duration.",
+                    "dependencyName": "Night of the Dead"
+                },
+                {
+                    "name": "Corpse Explosion",
+                    "x": 3,
+                    "y": 3,
+                    "bgURL": "abilities/ability_creature_disease_02",
+                    "maxRank": 1,
+                    "description": "Cause a corpse to explode for 166 Shadow damage to all enemies within 10 yards.  Will use a nearby corpse if the target is not a corpse.  Does not affect mechanical or elemental corpses."
+                },
+                {
+                    "name": "Unholy Blight",
+                    "x": 1,
+                    "y": 5,
+                    "bgURL": "spells/spell_shadow_contagion",
+                    "maxRank": 1,
+                    "description": "Causes the victims of your Death Coil to be surrounded by a vile swarm of unholy insects, taking 10% of the damage done by the Death Coil over 10 sec, and preventing any diseases on the victim from being dispelled."
+                },
+                {
+                    "name": "Summon Gargoyle",
+                    "x": 2,
+                    "y": 11,
+                    "bgURL": "abilities/ability_hunter_pet_bat",
+                    "maxRank": 1,
+                    "description": "A Gargoyle flies into the area and bombards the target with Nature damage modified by the Death Knight's attack power.  Persists for 30 sec."
+                },
+                {
+                    "name": "Reaping",
+                    "x": 3,
+                    "y": 6,
+                    "bgURL": "spells/spell_shadow_shadetruesight",
+                    "maxRank": 3,
+                    "description": "Whenever you hit with Blood Strike or Pestilence there is a v0% chance that the Blood Rune becomes a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune.",
+                    "values": {
+                        "v0": [
+                            33,
+                            66,
+                            100
+                        ]
+                    }
+                },
+                {
+                    "name": "Wandering Plague",
+                    "x": 1,
+                    "y": 9,
+                    "bgURL": "spells/spell_shadow_callofbone",
+                    "maxRank": 3,
+                    "description": "When your diseases damage an enemy, there is a chance equal to your melee critical strike chance that they will cause v0% additional damage to the target and all enemies within 8 yards.  Ignores any target under the effect of a spell that is cancelled by taking damage.",
+                    "values": {
+                        "v0": [
+                            33,
+                            66,
+                            100
+                        ]
+                    }
+                },
+                {
+                    "name": "Blood-Caked Blade",
+                    "x": 3,
+                    "y": 4,
+                    "bgURL": "abilities/ability_criticalstrike",
+                    "maxRank": 3,
+                    "description": "Your auto attacks have a v0% chance to cause a Blood-Caked Strike, which hits for 25% weapon damage plus 12.5% for each of your diseases on the target.",
+                    "values": {
+                        "v0": 10
+                    }
+                },
+                {
+                    "name": "Impurity",
+                    "x": 2,
+                    "y": 5,
+                    "bgURL": "spells/spell_shadow_shadowandflame",
+                    "maxRank": 5,
+                    "description": "The attack power bonus of your spells is increased by v0%.",
+                    "values": {
+                        "v0": 4
+                    }
+                },
+                {
+                    "name": "Bone Shield",
+                    "x": 3,
+                    "y": 8,
+                    "bgURL": "armor/inv_chest_leather_13",
+                    "maxRank": 1,
+                    "description": "The Death Knight is surrounded by 3 whirling bones.  While at least 1 bone remains, &lt;he/she&gt; takes 20% less damage from all sources and deals 2% more damage with all attacks, spells and abilities.  Each damaging attack that lands consumes 1 bone.  Lasts 5 min."
+                },
+                {
+                    "name": "Outbreak",
+                    "x": 1,
+                    "y": 3,
+                    "bgURL": "spells/spell_shadow_plaguecloud",
+                    "maxRank": 3,
+                    "description": "Increases the damage of Plague Strike by v0% and Scourge Strike by v1%.",
+                    "values": {
+                        "v0": 10,
+                        "v1": [
+                            7,
+                            13,
+                            20
+                        ]
+                    }
+                },
+                {
+                    "name": "Magic Suppression",
+                    "x": 2,
+                    "y": 6,
+                    "bgURL": "spells/spell_shadow_antimagicshell",
+                    "maxRank": 3,
+                    "description": "You take v0% less damage from all magic.  In addition, your Anti-Magic Shell absorbs an additional v1% of spell damage.",
+                    "values": {
+                        "v0": 2,
+                        "v1": [
+                            8,
+                            16,
+                            25
+                        ]
+                    }
+                },
+                {
+                    "name": "Dirge",
+                    "x": 3,
+                    "y": 5,
+                    "bgURL": "spells/spell_shadow_shadesofdarkness",
+                    "maxRank": 2,
+                    "description": "Your Death Strike, Plague Strike and Scourge Strike generate v0 additional runic power.",
+                    "values": {
+                        "v0": 2.5
+                    }
+                },
+                {
+                    "name": "Improved Unholy Presence",
+                    "x": 3,
+                    "y": 7,
+                    "bgURL": "spells/spell_deathknight_unholypresence",
+                    "maxRank": 2,
+                    "description": "While in Blood Presence or Frost Presence, you retain v0% increased movement speed from Unholy Presence, and your runes finish their cooldowns v1% faster in Unholy Presence.",
+                    "values": {
+                        "v0": [
+                            8,
+                            15
+                        ],
+                        "v1": 5
+                    }
+                },
+                {
+                    "name": "Unholy Command",
+                    "x": 3,
+                    "y": 2,
+                    "bgURL": "spells/spell_deathknight_strangulate",
+                    "maxRank": 2,
+                    "description": "Reduces the cooldown of your Death Grip ability by v0 sec.",
+                    "values": {
+                        "v0": 5
+                    }
+                },
+                {
+                    "name": "Rage of Rivendare",
+                    "x": 2,
+                    "y": 10,
+                    "bgURL": "weapons/inv_weapon_halberd14",
+                    "maxRank": 5,
+                    "description": "Your spells and abilities deal v0% more damage to targets infected with Blood Plague.  Also increases your expertise by v1.",
+                    "values": {
+                        "v0": 2,
+                        "v1": 1
+                    }
+                },
+                {
+                    "name": "On a Pale Horse",
+                    "x": 2,
+                    "y": 4,
+                    "bgURL": "spells/spell_deathknight_summondeathcharger",
+                    "maxRank": 2,
+                    "description": "You become as hard to stop as death itself.  The duration of all Stun and Fear effects used against you is reduced by v0%, and your mounted speed is increased by v1%.  This does not stack with other movement speed increasing effects.",
+                    "values": {
+                        "v0": 10,
+                        "v1": 10
+                    }
+                },
+                {
+                    "name": "Ebon Plaguebringer",
+                    "x": 2,
+                    "y": 9,
+                    "bgURL": "abilities/ability_creature_cursed_03",
+                    "maxRank": 3,
+                    "description": "Your Crypt Fever morphs into Ebon Plague, which increases magic damage taken by v0% in addition to increasing disease damage taken.  Improves your critical strike chance with weapons and spells by v1% at all times.",
+                    "values": {
+                        "v0": [
+                            4,
+                            9,
+                            13
+                        ],
+                        "v1": 1
+                    },
+                    "dependencyName": "Crypt Fever"
+                },
+                {
+                    "name": "Necrosis",
+                    "x": 2,
+                    "y": 3,
+                    "bgURL": "weapons/inv_weapon_shortblade_60",
+                    "maxRank": 5,
+                    "description": "Your auto attacks deal an additional v0% Shadow damage.",
+                    "values": {
+                        "v0": 4
+                    }
+                },
+                {
+                    "name": "Vicious Strikes",
+                    "x": 1,
+                    "y": 1,
+                    "bgURL": "spells/spell_deathknight_plaguestrike",
+                    "maxRank": 2,
+                    "description": "Increases the critical strike chance by v0% and critical strike damage bonus by v1% of your Plague Strike and Scourge Strike.",
+                    "values": {
+                        "v0": 3,
+                        "v1": 15
+                    }
+                },
+                {
+                    "name": "Ghoul Frenzy",
+                    "x": 4,
+                    "y": 7,
+                    "bgURL": "abilities/ability_ghoulfrenzy",
+                    "maxRank": 1,
+                    "description": "Grants your pet 25% haste for 30 sec and  heals it for 60% of its health over the duration.",
+                    "dependencyName": "Master of Ghouls"
+                },
+                {
+                    "name": "Scourge Strike",
+                    "x": 3,
+                    "y": 9,
+                    "bgURL": "spells/spell_deathknight_scourgestrike",
+                    "maxRank": 1,
+                    "description": "An unholy strike that deals 70% of weapon damage as Physical damage plus 238.  In addition, for each of your diseases on your target, you deal an additional 12% of the Physical damage done as Shadow damage."
+                },
+                {
+                    "name": "Anticipation",
+                    "x": 3,
+                    "y": 1,
+                    "bgURL": "spells/spell_nature_mirrorimage",
+                    "maxRank": 5,
+                    "description": "Increases your Dodge chance by v0%.",
+                    "values": {
+                        "v0": 1
+                    }
+                },
+                {
+                    "name": "Anti-Magic Zone",
+                    "x": 2,
+                    "y": 7,
+                    "bgURL": "spells/spell_deathknight_antimagiczone",
+                    "maxRank": 1,
+                    "description": "Places a large, stationary Anti-Magic Zone that reduces spell damage done to party or raid members inside it by 75%.  The Anti-Magic Zone lasts for 10 sec or until it absorbs 10000+2*AP spell damage.",
+                    "dependencyName": "Magic Suppression"
+                },
+                {
+                    "name": "Night of the Dead",
+                    "x": 4,
+                    "y": 4,
+                    "bgURL": "spells/spell_deathknight_armyofthedead",
+                    "maxRank": 2,
+                    "description": "Reduces the cooldown on Raise Dead by v0 sec and the cooldown on Army of the Dead by v1 min.  Also reduces the damage your pet takes from creature area of effect attacks by v2%.",
+                    "values": {
+                        "v0": 45,
+                        "v1": 2,
+                        "v2": 45
+                    }
+                },
+                {
+                    "name": "Desecration",
+                    "x": 1,
+                    "y": 6,
+                    "bgURL": "spells/spell_shadow_shadowfiend",
+                    "maxRank": 2,
+                    "description": "Your Plague Strikes and Scourge Strikes cause the Desecrated Ground effect.  Targets in the area are slowed by v0% by the grasping arms of the dead while standing on the unholy ground.  Lasts 20 sec.",
+                    "values": {
+                        "v0": 25
+                    }
+                },
+                {
+                    "name": "Desolation",
+                    "x": 1,
+                    "y": 7,
+                    "bgURL": "spells/spell_shadow_unholyfrenzy",
+                    "maxRank": 5,
+                    "description": "Your Blood Strikes cause you to deal v0% additional damage with all attacks for the next 20 sec.",
+                    "values": {
+                        "v0": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "glyphs": {
+        "major": [
+            {
+                "bgURL": "spells/spell_frost_arcticwinds",
+                "level": 60,
+                "name": "Glyph of Howling Blast",
+                "description": "Your Howling Blast ability now infects your targets with Frost Fever."
+            },
+            {
+                "bgURL": "weapons/inv_sword_07",
+                "level": 60,
+                "name": "Glyph of Dancing Rune Weapon",
+                "description": "Increases the duration of Dancing Rune Weapon by 5 sec."
+            },
+            {
+                "bgURL": "weapons/inv_staff_15",
+                "level": 60,
+                "name": "Glyph of Hungering Cold",
+                "description": "Reduces the cost of Hungering Cold by 40 runic power."
+            },
+            {
+                "bgURL": "spells/spell_shadow_contagion",
+                "level": 60,
+                "name": "Glyph of Unholy Blight",
+                "description": "Increases the damage done by Unholy Blight by 40%."
+            },
+            {
+                "bgURL": "spells/spell_deathknight_classicon",
+                "level": 55,
+                "name": "Glyph of Obliterate",
+                "description": "Increases the damage of your Obliterate ability by 25%."
+            },
+            {
+                "bgURL": "spells/spell_shadow_animatedead",
+                "level": 55,
+                "name": "Glyph of the Ghoul",
+                "description": "Your Ghoul receives an additional 40% of your Strength and 40% of your Stamina."
+            },
+            {
+                "bgURL": "spells/spell_deathknight_icetouch",
+                "level": 55,
+                "name": "Glyph of Icy Touch",
+                "description": "Your Frost Fever disease deals 20% additional damage."
+            },
+            {
+                "bgURL": "spells/spell_shadow_deathanddecay",
+                "level": 55,
+                "name": "Glyph of Death and Decay",
+                "description": "Damage of your Death and Decay spell increased by 20%."
+            },
+            {
+                "bgURL": "spells/spell_deathknight_butcher2",
+                "level": 55,
+                "name": "Glyph of Death Strike",
+                "description": "Increases your Death Strike's damage by 1% for every 1 runic power you currently have (up to a maximum of 25%).  The runic power is not consumed by this effect."
+            },
+            {
+                "bgURL": "spells/spell_deathknight_empowerruneblade2",
+                "level": 55,
+                "name": "Glyph of Frost Strike",
+                "description": "Reduces the cost of your Frost Strike by 8 Runic Power."
+            },
+            {
+                "bgURL": "spells/spell_shadow_lifedrain",
+                "level": 55,
+                "name": "Glyph of Vampiric Blood",
+                "description": "Increases  the duration of your Vampiric Blood by 5 sec."
+            },
+            {
+                "bgURL": "spells/spell_nature_shamanrage",
+                "level": 55,
+                "name": "Glyph of Dark Command",
+                "description": "Increases the chance for your Dark Command ability to work successfully by 8%."
+            },
+            {
+                "bgURL": "spells/spell_deathknight_strangulate",
+                "level": 55,
+                "name": "Glyph of Death Grip",
+                "description": "When you deal a killing blow that grants honor or experience, the cooldown of your Death Grip is refreshed."
+            },
+            {
+                "bgURL": "spells/spell_shadow_antimagicshell",
+                "level": 55,
+                "name": "Glyph of Anti-Magic Shell",
+                "description": "Increases the duration of your Anti-Magic Shell by 2 sec."
+            },
+            {
+                "bgURL": "spells/spell_deathknight_runetap",
+                "level": 55,
+                "name": "Glyph of Rune Tap",
+                "description": "Your Rune Tap now heals you for an additional 1% of your maximum health, and also heals your party for 10% of their maximum health."
+            },
+            {
+                "bgURL": "weapons/inv_weapon_shortblade_40",
+                "level": 55,
+                "name": "Glyph of Heart Strike",
+                "description": "Your Heart Strike also reduces the movement speed of your target by 50% for 10 sec."
+            },
+            {
+                "bgURL": "spells/spell_deathknight_deathstrike",
+                "level": 55,
+                "name": "Glyph of Blood Strike",
+                "description": "Your Blood Strike causes an additional 20% damage to snared targets."
+            },
+            {
+                "bgURL": "spells/spell_deathknight_scourgestrike",
+                "level": 55,
+                "name": "Glyph of Scourge Strike",
+                "description": "Your Scourge Strike increases the duration of your diseases on the target by 3 sec, up to a maximum of 9 additional seconds."
+            },
+            {
+                "bgURL": "spells/spell_frost_chainsofice",
+                "level": 55,
+                "name": "Glyph of Chains of Ice",
+                "description": "Your Chains of Ice also causes 144 to 156 Frost damage, increased by your attack power."
+            },
+            {
+                "bgURL": "spells/spell_deathknight_empowerruneblade",
+                "level": 55,
+                "name": "Glyph of Plague Strike",
+                "description": "Your Plague Strike does 20% additional damage."
+            },
+            {
+                "bgURL": "armor/inv_armor_helm_plate_naxxramas_raidwarrior_c_01",
+                "level": 55,
+                "name": "Glyph of Unbreakable Armor",
+                "description": "Increases the total armor granted by Unbreakable Armor to 30%."
+            },
+            {
+                "bgURL": "spells/spell_deathknight_darkconviction",
+                "level": 55,
+                "name": "Glyph of Rune Strike",
+                "description": "Increases the critical strike chance of your Rune Strike by 10%."
+            },
+            {
+                "bgURL": "armor/inv_chest_leather_13",
+                "level": 55,
+                "name": "Glyph of Bone Shield",
+                "description": "Adds 1 additional charge to your Bone Shield."
+            },
+            {
+                "bgURL": "spells/spell_shadow_soulleech_3",
+                "level": 55,
+                "name": "Glyph of Strangulate",
+                "description": "Reduces the cooldown of your Strangulate by 20 sec."
+            },
+            {
+                "bgURL": "spells/spell_deathknight_iceboundfortitude",
+                "level": 55,
+                "name": "Glyph of Icebound Fortitude",
+                "description": "Your Icebound Fortitude now always grants at least 40% damage reduction, regardless of your defense skill."
+            },
+            {
+                "bgURL": "spells/spell_shadow_plaguecloud",
+                "level": 55,
+                "name": "Glyph of Disease",
+                "description": "Your Pestilence ability now refreshes disease durations and secondary effects of diseases on your primary target back to their maximum duration."
+            },
+            {
+                "bgURL": "spells/spell_shadow_deathcoil",
+                "level": 55,
+                "name": "Glyph of Dark Death",
+                "description": "Increases the damage or healing done by Death Coil by 15%."
+            }
+        ],
+        "minor": [
+            {
+                "bgURL": "spells/spell_shadow_animatedead",
+                "level": 55,
+                "name": "Glyph of Raise Dead",
+                "description": "Your Raise Dead spell no longer requires a reagent."
+            },
+            {
+                "bgURL": "spells/spell_shadow_plaguecloud",
+                "level": 55,
+                "name": "Glyph of Pestilence",
+                "description": "Increases the radius of your Pestilence effect by 5 yards."
+            },
+            {
+                "bgURL": "spells/spell_deathknight_bloodtap",
+                "level": 55,
+                "name": "Glyph of Blood Tap",
+                "description": "Your Blood Tap no longer causes damage to you."
+            },
+            {
+                "bgURL": "items/inv_mischorn_02",
+                "level": 55,
+                "name": "Glyph of Horn of Winter",
+                "description": "Increases the duration of your Horn of Winter ability by 1 min."
+            },
+            {
+                "bgURL": "spells/spell_shadow_deathcoil",
+                "level": 55,
+                "name": "Glyph of Death's Embrace",
+                "description": "Your Death Coil refunds 20 runic power when used to heal."
+            },
+            {
+                "bgURL": "abilities/ability_creature_disease_02",
+                "level": 55,
+                "name": "Glyph of Corpse Explosion",
+                "description": "Increases the radius of effect on Corpse Explosion by 5 yards."
+            }
+        ]
+    }
+}
