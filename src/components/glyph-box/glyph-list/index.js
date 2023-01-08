@@ -12,13 +12,20 @@ const GlyphList = ({ glyphType, onGlyphSelect }) => {
     const [sort, setSort] = useState({ type: 'name', isAsc: true });
 
     const sortedList = useMemo(() => {
+        let newList = [];
         if (glyphs) {
             const { type, isAsc } = sort;
-            return [...glyphs].sort(([, { [type]: a }], [, { [type]: b }]) => {
-                return isAsc ? a > b : a < b;
+
+            newList = [...glyphs].sort(([, { [type]: a }], [, { [type]: b }]) => {
+
+                return (a > b ? 1 : a < b ? -1 : 0)
+                    /* flip the sort order depending on the sort type */
+                    ^ (+isAsc - 1);
             });
         }
-        return [];
+
+        return newList;
+        // return [];
     }, [glyphs, sort]);
 
     const changeSortOrder = (sortType) => {
@@ -53,7 +60,9 @@ const GlyphList = ({ glyphType, onGlyphSelect }) => {
             <thead>
                 <tr>
                     <th></th>
-                    <th className={getSortClass('name')} onClick={() => changeSortOrder('name')}>
+                    <th className={getSortClass('name')} onClick={() => {
+                        changeSortOrder('name');
+                    }}>
                         Name
                     </th>
                     <th>Effect</th>
