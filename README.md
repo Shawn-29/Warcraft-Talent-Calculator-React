@@ -9,7 +9,10 @@ The website is online! You can try it [here](https://wow-talent-calculator-react
 - Includes all class talent trees from World of Warcraft's classic versions, including Classic,
 The Burning Crusade, and Wrath of the Lich King.
 
-- Users can add and remove points from talents and the talent trees will update accordingly.
+- Users can add and remove points from talents and the corresponding talent trees will update accordingly.
+
+- The users progression is recorded as points are spent. The level at which the point was spent and the
+rank of the talent is displayed to help users plan their characters
 
 - Users can add and remove glyphs from the Wrath of the Lich King expansion.
 
