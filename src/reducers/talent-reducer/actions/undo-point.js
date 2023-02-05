@@ -4,6 +4,10 @@ import { getTooltip, getUpdatedTalentTable } from '../utils';
 
 import { strCmp } from 'utils/string';
 
+import { shiftArray } from 'utils/general';
+
+import getUpdatedTalentOrder from 'old-code/undo-point-talent-order';
+
 const undoPoint = (state, talentId) => {
     /* check if there are no points left to refund */
     if (state.pointsRemain === state.maxPoints) {
@@ -96,15 +100,24 @@ const undoPoint = (state, talentId) => {
     const levelReq = updatedPoints === state.maxPoints ?
         -1 : state.maxLevel - updatedPoints;
 
-    /* update the talent order */
-    const lastIndex = state.talentOrder.findLastIndex(orderObj => {
-        return strCmp(orderObj.id, foundTalent.id);
-        // return orderObj.id.localeCompare(foundTalent.id, 'en', { sensitivity: 'accent' }) === 0
-    });
+    const newTalentOrder = shiftArray(
+        state.talentOrder,
+        state.talentOrder.findLastIndex(orderObj => {
+            return strCmp(orderObj.id, talentId);
+        }),
+        (talentObj, index) => {
+            const talent = state.talentTable.get(talentObj.id);
 
-    const newTalentOrder = lastIndex >= 0 ?
-        state.talentOrder.slice(0, lastIndex).concat(state.talentOrder.slice(lastIndex + 1)) :
-        state.talentOrder;
+            /* get the required points for the talent at its tier */
+            const pointsRequired = (talent.y - 1) * POINTS_REQ_PER_TIER;
+    
+            /* the curent talent record index is also the number of points spent
+                as we traverse the old talent order; use it to determine if the
+                removed talent record would make the new talent order invalid
+            */
+            return index >= pointsRequired;
+        }
+    );
 
     return {
         ...state,
