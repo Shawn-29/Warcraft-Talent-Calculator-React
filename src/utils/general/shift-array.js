@@ -55,4 +55,4 @@ const shiftArray = (arr, removalIndex, pred) => {
     return Object.values(elemMap);
 };
 
-export default shiftArray
+export default shiftArray;

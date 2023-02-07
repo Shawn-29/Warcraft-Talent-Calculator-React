@@ -6,8 +6,6 @@ import { strCmp } from 'utils/string';
 
 import { shiftArray } from 'utils/general';
 
-import getUpdatedTalentOrder from 'old-code/undo-point-talent-order';
-
 const undoPoint = (state, talentId) => {
     /* check if there are no points left to refund */
     if (state.pointsRemain === state.maxPoints) {
