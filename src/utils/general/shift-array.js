@@ -17,7 +17,7 @@
 const shiftArray = (arr, removalIndex, pred) => {
     let elemMap = {};
     let lastIndex = -1;
-    let curIndex = 0;
+    let curIndex = removalIndex;
 
     for (const elem of arr) {
         ++lastIndex;
@@ -29,11 +29,11 @@ const shiftArray = (arr, removalIndex, pred) => {
 
         /* if an element satisfies the predicate function, place it
             in the new position */
-        if (pred(elem, curIndex)) {
+        if (lastIndex > removalIndex && pred(elem, curIndex)) {
 
             /* if an element already exists at this position, adjust the
                 the current index to one position ahead of the last known element */
-            if (elemMap[curIndex]) {
+            if (elemMap[curIndex] !== undefined) {
                 curIndex = lastIndex + 1;
             }
 
@@ -42,14 +42,17 @@ const shiftArray = (arr, removalIndex, pred) => {
             ++curIndex;
         }
         else {
-            /* if an element fails the predicate function, keeps its
-                original position in the array */
+            /* if an element fails the predicate function, keeps its original position
+                in the array; however, if an element is already there, move the element
+                ahead of its original position by one */
+            if (elemMap[lastIndex] !== undefined) {
+                ++lastIndex;
+            }
             elemMap[lastIndex] = elem;
         }
     }
 
-    return Object.values(elemMap)
-        .concat(arr.slice(lastIndex + 1));
+    return Object.values(elemMap);
 };
 
 export default shiftArray
