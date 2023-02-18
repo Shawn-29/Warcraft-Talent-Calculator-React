@@ -15,7 +15,7 @@
  * @param {predicate} pred
  */
 const shiftArray = (arr, removalIndex, pred) => {
-    let elemMap = {};
+    const elemMap = {};
     let lastIndex = -1;
     let curIndex = removalIndex;
 
